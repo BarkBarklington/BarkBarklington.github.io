@@ -1,0 +1,732 @@
+CMake Error in build/_deps/openxr-src/src/loader/CMakeLists.txt:
+  install(EXPORT "openxr_loader_export" ...) includes target "openxr_loader"
+  which requires target "jsoncpp_interface" that is not in any export set.
+
+
+CMake Error in build/_deps/openxr-src/src/loader/CMakeLists.txt:
+  export called with target "openxr_loader" which requires target
+  "jsoncpp_interface" that is not in any export set.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done (0.0s)
+Build failed!
+
+#########################################################
+#########################################################
+#########################################################
+#########################################################
+#########################################################
+
+Building WiVRn...
+Cloning into '/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice'...
+Switched to a new branch 'release'
+branch 'release' set up to track 'origin/release'.
+-- The C compiler identification is GNU 15.1.1
+-- The CXX compiler identification is GNU 15.1.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- Found Vulkan: /lib/libvulkan.so (found version "1.4.321") found components: glslc glslangValidator
+-- Found Git: /usr/bin/git (found version "2.50.1")
+-- Found OpenSSL: /usr/lib/libcrypto.so (found version "3.5.1")
+CMake Warning (dev) at CMakeLists.txt:86 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /usr/lib/cmake/Boost-1.88.0/BoostConfig.cmake (found suitable version "1.88.0", minimum required is "1.75.0") found components: locale url
+-- Checking for modules 'libavcodec;libavutil;libswscale;libavfilter'
+--   Found libavcodec, version 61.19.101
+--   Found libavutil, version 59.39.100
+--   Found libswscale, version 8.3.100
+--   Found libavfilter, version 10.4.100
+-- Checking for module 'libdrm'
+--   Found libdrm, version 2.4.125
+-- Checking for module 'x264'
+--   Found x264, version 0.164.3108
+-- Checking for module 'libsystemd'
+--   Found libsystemd, version 257
+-- Checking for module 'libpipewire-0.3'
+--   Found libpipewire-0.3, version 1.4.6
+-- Checking for module 'libpulse'
+--   Found libpulse, version 17.0-43-g3e2bb
+-- Checking for modules 'avahi-client;avahi-glib'
+--   Found avahi-client, version 0.8
+--   Found avahi-glib, version 0.8
+-- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.12.0")
+-- Checking for modules 'glib-2.0;gio-2.0;gio-unix-2.0'
+--   Found glib-2.0, version 2.85.1
+--   Found gio-2.0, version 2.85.1
+--   Found gio-unix-2.0, version 2.85.1
+-- Checking for module 'libnotify'
+--   Found libnotify, version 0.8.6
+-- Found Python3: /usr/bin/python3.13 (found version "3.13.5") found components: Interpreter
+-- Found HIDAPI: /usr/include/hidapi  found components: any
+-- Found bluetooth: /usr/lib/libbluetooth.so
+-- Found OpenHMD: /usr/include/openhmd
+-- Found OpenCV: /usr (found version "4.12.0") found components: core calib3d highgui imgproc imgcodecs features2d video
+-- Found Libusb1: /usr/lib/libusb-1.0.so
+-- Found JPEG: /usr/lib/libjpeg.so (found version "80")
+-- Could NOT find depthai (missing: depthai_DIR)
+-- Found ZLIB: /usr/lib/libz.so (found version "1.3.1")
+-- Found cJSON: /usr/lib/cmake/cJSON/cJSONConfig.cmake (found version "1.7.18")
+-- Could NOT find LeapV2 (missing: LeapV2_INCLUDE_DIR LeapV2_LIBRARY)
+-- Could NOT find LeapSDK (missing: LeapSDK_DIR)
+-- Found ONNXRuntime: /usr/include/onnxruntime
+-- Performing Test HAVE_EGL
+-- Performing Test HAVE_EGL - Success
+-- Found EGL: /usr/include (found version "1.5")
+-- Could NOT find Percetto (missing: Percetto_INCLUDE_DIR Percetto_LIBRARY)
+-- Found Systemd: /usr/include
+-- Found OpenGLES: /usr/lib/libGLESv2.so  found components: V3
+-- Found Threads: TRUE
+-- Checking for module 'libuvc'
+--   Found libuvc, version 0.0.7
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Found X11: /usr/include
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found udev: /usr/lib/libudev.so
+-- Checking for module 'xrandr'
+--   Found xrandr, version 1.5.4
+-- Checking for modules 'xcb;xcb-randr;x11-xcb'
+--   Found xcb, version 1.17.0
+--   Found xcb-randr, version 1.17.0
+--   Found x11-xcb, version 1.8.12
+-- Checking for one of the modules 'wayland-client'
+-- Checking for one of the modules 'wayland-scanner'
+-- Checking for one of the modules 'wayland-protocols'
+-- Found OpenGL: /usr/lib/libOpenGL.so  found components: GLX
+-- Checking for one of the modules 'dbus-1'
+-- Checking for one of the modules 'libbsd'
+-- Checking for modules 'gstreamer-1.0;gstreamer-app-1.0;gstreamer-video-1.0'
+--   Found gstreamer-1.0, version 1.26.4
+--   Found gstreamer-app-1.0, version 1.26.4
+--   Found gstreamer-video-1.0, version 1.26.4
+-- Checking for module 'survive'
+--   Package 'survive' not found
+-- Found OpenVR: /usr/lib/libopenvr_api.so
+-- Enabled drivers: drv_cemu drv_multi rs svr v4l2
+CMake Warning (dev) at build/_deps/monado-src/cmake/GenerateKhrManifest.cmake:93 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+Call Stack (most recent call first):
+  build/_deps/monado-src/cmake/GenerateOpenXRRuntimeManifest.cmake:76 (generate_khr_manifest_buildtree)
+  build/_deps/monado-src/src/xrt/targets/openxr/CMakeLists.txt:73 (generate_openxr_runtime_manifest_buildtree)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE)
+-- #####----- Config -----#####
+-- #    GIT_DESC:        v25.0.0-99-g134169f12
+-- #
+-- #    BLUETOOTH:       OFF
+-- #    D3D11:           OFF
+-- #    D3D12:           OFF
+-- #    DBUS:            OFF
+-- #    EGL:             ON
+-- #    GST (GStreamer): OFF
+-- #    HIDAPI:          ON
+-- #    JPEG:            OFF
+-- #    LIBBSD:          ON
+-- #    LIBUSB:          ON
+-- #    LIBUVC:          ON
+-- #    ONNXRUNTIME:     OFF
+-- #    OPENCV:          OFF
+-- #    OPENGL:          ON
+-- #    OPENGLES:        ON
+-- #    OPENGL_GLX:      ON
+-- #    PERCETTO:        OFF
+-- #    REALSENSE:       ON
+-- #    OPENVR:          ON
+-- #    SDL2:            OFF
+-- #    SYSTEM_CJSON:    OFF
+-- #    SYSTEMD:         ON
+-- #    TRACY:           OFF
+-- #    VULKAN:          ON
+-- #    WAYLAND:         ON
+-- #    WAYLAND_DIRECT:  ON
+-- #    XCB:             ON
+-- #    XLIB:            ON
+-- #    XRANDR:          ON
+-- #
+-- #    MODULE_AUX_VIVE:             ON
+-- #    MODULE_COMPOSITOR:           ON
+-- #    MODULE_COMPOSITOR_MAIN:      ON
+-- #    MODULE_COMPOSITOR_NULL:      ON
+-- #    MODULE_MERCURY_HANDTRACKING: OFF
+-- #    MODULE_IPC:                  ON
+-- #    MODULE_MONADO_GUI:           OFF
+-- #    MODULE_MONADO_CLI:           ON
+-- #    MODULE_OPENXR_STATE_TRACKER: ON
+-- #
+-- #    FEATURE_AHARDWARE_BUFFER:                      OFF
+-- #    FEATURE_CLIENT_DEBUG_GUI:                      OFF
+-- #    FEATURE_COLOR_LOG:                             ON
+-- #    FEATURE_DEBUG_GUI:                             OFF
+-- #    FEATURE_OPENXR:                                ON
+-- #    FEATURE_OPENXR_ACTIVE_ACTION_SET_PRIORITY:     ON
+-- #    FEATURE_OPENXR_BODY_TRACKING_FB:               OFF
+-- #    FEATURE_OPENXR_BODY_TRACKING_FULL_BODY_META:   OFF
+-- #    FEATURE_OPENXR_FACE_TRACKING2_FB:              ON
+-- #    FEATURE_OPENXR_DEBUG_UTILS:                    OFF
+-- #    FEATURE_OPENXR_DISPLAY_REFRESH_RATE:           ON
+-- #    FEATURE_OPENXR_FACIAL_TRACKING_HTC:            ON
+-- #    FEATURE_OPENXR_FORCE_FEEDBACK_CURL:            ON
+-- #    FEATURE_OPENXR_HAND_TRACKING_EXT:              ON
+-- #    FEATURE_OPENXR_HAPTIC_PCM:                     OFF
+-- #    FEATURE_OPENXR_HEADLESS:                       ON
+-- #    FEATURE_OPENXR_INTERACTION_EXT_EYE_GAZE:       ON
+-- #    FEATURE_OPENXR_INTERACTION_EXT_HAND:           OFF
+-- #    FEATURE_OPENXR_INTERACTION_EXT_PALM_POSE:      ON
+-- #    FEATURE_OPENXR_INTERACTION_ML2:                ON
+-- #    FEATURE_OPENXR_INTERACTION_MNDX:               ON
+-- #    FEATURE_OPENXR_INTERACTION_MSFT_HAND:          OFF
+-- #    FEATURE_OPENXR_INTERACTION_OPPO:               ON
+-- #    FEATURE_OPENXR_INTERACTION_WINMR:              ON
+-- #    FEATURE_OPENXR_LAYER_COLOR_SCALE_BIAS:         OFF
+-- #    FEATURE_OPENXR_LAYER_CUBE:                     OFF
+-- #    FEATURE_OPENXR_LAYER_CYLINDER:                 ON
+-- #    FEATURE_OPENXR_LAYER_DEPTH:                    ON
+-- #    FEATURE_OPENXR_LAYER_EQUIRECT1:                OFF
+-- #    FEATURE_OPENXR_LAYER_EQUIRECT2:                ON
+-- #    FEATURE_OPENXR_LAYER_FB_ALPHA_BLEND:           OFF
+-- #    FEATURE_OPENXR_LAYER_FB_DEPTH_TEST:            OFF
+-- #    FEATURE_OPENXR_LAYER_FB_IMAGE_LAYOUT           OFF
+-- #    FEATURE_OPENXR_LAYER_FB_SETTINGS:              OFF
+-- #    FEATURE_OPENXR_LAYER_FB_PASSTHROUGH:           OFF
+-- #    FEATURE_OPENXR_OVERLAY:                        ON
+-- #    FEATURE_OPENXR_PERFORMANCE_SETTINGS:           OFF
+-- #    FEATURE_OPENXR_PLANE_DETECTION:                OFF
+-- #    FEATURE_OPENXR_SPACE_LOCAL_FLOOR:              ON
+-- #    FEATURE_OPENXR_SPACE_UNBOUNDED:                ON
+-- #    FEATURE_OPENXR_VISIBILITY_MASK:                ON
+-- #    FEATURE_OPENXR_VULKAN_SWAPCHAIN_FORMAT_LIST:   ON
+-- #    FEATURE_OPENXR_XDEV_SPACE:                     ON
+-- #    FEATURE_RENDERDOC:                             OFF
+-- #    FEATURE_SERVICE:                               ON
+-- #    FEATURE_SERVICE_SYSTEMD:                       OFF
+-- #    FEATURE_SLAM:                                  OFF
+-- #    FEATURE_SSE2:                                  ON
+-- #    FEATURE_STEAMVR_PLUGIN:                        OFF
+-- #    FEATURE_TRACING:                               OFF
+-- #    FEATURE_WINDOW_PEEK:                           OFF
+-- #
+-- #    DRIVER_ANDROID:              OFF
+-- #    DRIVER_ARDUINO:              OFF
+-- #    DRIVER_DAYDREAM:             OFF
+-- #    DRIVER_DEPTHAI:              OFF
+-- #    DRIVER_EUROC:                OFF
+-- #    DRIVER_HANDTRACKING:         OFF
+-- #    DRIVER_HDK:                  OFF
+-- #    DRIVER_HYDRA:                OFF
+-- #    DRIVER_ILLIXR:               OFF
+-- #    DRIVER_NS:                   OFF
+-- #    DRIVER_OHMD:                 OFF
+-- #    DRIVER_OPENGLOVES:           OFF
+-- #    DRIVER_PSMV:                 OFF
+-- #    DRIVER_PSSENSE:              OFF
+-- #    DRIVER_PSVR:                 OFF
+-- #    DRIVER_QWERTY:               OFF
+-- #    DRIVER_REALSENSE:            ON
+-- #    DRIVER_REMOTE:               OFF
+-- #    DRIVER_RIFT_S:               OFF
+-- #    DRIVER_ROKID:                OFF
+-- #    DRIVER_SIMULATED:            OFF
+-- #    DRIVER_SIMULAVR:             ON
+-- #    DRIVER_SURVIVE:              OFF
+-- #    DRIVER_TWRAP:                OFF
+-- #    DRIVER_ULV2:                 OFF
+-- #    DRIVER_ULV5:                 OFF
+-- #    DRIVER_VF:                   OFF
+-- #    DRIVER_VIVE:                 OFF
+-- #    DRIVER_WMR:                  OFF
+-- #    DRIVER_XREAL_AIR:            OFF
+-- #    DRIVER_STEAMVR_LIGHTHOUSE:   OFF
+-- #####----- Config -----#####
+Selected encoders:
+	NVENC : ON
+	VAAPI : ON
+	Vulkan: ON
+	x264  : ON
+
+Audio backends:
+	Pipewire  : ON
+	Pulseaudio: ON
+
+Optional features:
+	systemd: ON
+-- Configuring done (9.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build
+[0/2] Re-checking globbed directories...
+[1/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/os/CMakeFiles/aux_os.dir/os_time.cpp.o
+[2/299] cd /home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/common && /usr/bin/cmake -D GIT_EXECUTABLE=/usr/bin/git -D INPUT_FILE=/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/common/version.cpp.in -D OUTPUT_FILE=/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/common/version.cpp -D CMAKE_PROJECT_VERSION=0.0.0 -P /home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/cmake/GitVersion.cmake
+-- Setting version to v25.6.1 from git
+-- Setting commit to eacca0785735c2a5d11852f3c8bb51bc41f24eb6
+[3/299] Building C object _deps/monado-build/src/external/CMakeFiles/xrt-external-nanopb.dir/nanopb/monado_metrics.pb.c.o
+[4/299] Building CXX object common/CMakeFiles/wivrn-common-base.dir/version.cpp.o
+[5/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util_debug_gui.dir/u_debug_gui.c.o
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/auxiliary/util/u_debug_gui.c:20:33: warning: ‘struct u_debug_gui_create_info’ declared inside parameter list will not be visible outside of this definition or declaration
+   20 | u_debug_gui_create(const struct u_debug_gui_create_info *udgci, struct u_debug_gui **out_debug_ui)
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~
+[6/299] Generating wivrn_server_dbus.c, wivrn_server_dbus.h
+[7/299] Building C object _deps/monado-build/src/xrt/auxiliary/os/CMakeFiles/aux_os.dir/os_hid_hidraw.c.o
+[8/299] Building C object _deps/monado-build/src/external/CMakeFiles/xrt-external-nanopb.dir/nanopb/pb_common.c.o
+[9/299] Linking CXX static library _deps/monado-build/src/xrt/auxiliary/os/libaux_os.a
+[10/299] Linking C static library _deps/monado-build/src/xrt/auxiliary/util/libaux_util_debug_gui.a
+[11/299] Building C object _deps/monado-build/src/external/CMakeFiles/xrt-external-nanopb.dir/nanopb/pb_encode.c.o
+[12/299] Generating b_generated_bindings.c
+[13/299] Generating b_generated_bindings.h
+[14/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_bitwise.c.o
+[15/299] Building C object _deps/monado-build/src/external/CMakeFiles/xrt-external-nanopb.dir/nanopb/pb_decode.c.o
+[16/299] Linking C static library _deps/monado-build/src/external/libxrt-external-nanopb.a
+[17/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_autoexpgain.c.o
+[18/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_builders.c.o
+[19/299] Building CXX object common/CMakeFiles/wivrn-common.dir/secrets.cpp.o
+[20/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_debug.c.o
+[21/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_distortion.c.o
+[22/299] Building CXX object common/CMakeFiles/wivrn-common.dir/vk/vk_allocator.cpp.o
+[23/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_device.c.o
+[24/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_file.cpp.o
+[25/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_file.c.o
+[26/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_distortion_mesh.c.o
+[27/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_format.c.o
+[28/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_handles.c.o
+[29/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_frame.c.o
+[30/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_deque.cpp.o
+[31/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_hand_tracking.c.o
+[32/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_hand_simulation.c.o
+[33/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_imu_sink_split.c.o
+[34/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_imu_sink_force_monotonic.c.o
+[35/299] Building CXX object common/CMakeFiles/wivrn-common-base.dir/utils/strings.cpp.o
+[36/299] Building CXX object common/CMakeFiles/wivrn-common.dir/crypto.cpp.o
+[37/299] Building CXX object common/CMakeFiles/wivrn-common.dir/utils/strings.cpp.o
+[38/299] Building CXX object common/CMakeFiles/wivrn-common-base.dir/utils/flatpak.cpp.o
+[39/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_misc.c.o
+[40/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_limited_unique_id.cpp.o
+[41/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_logging.c.o
+[42/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_hashmap.cpp.o
+[43/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_metrics.c.o
+[44/299] Building C object server/CMakeFiles/wivrn-server-dbus.dir/wivrn_server_dbus.c.o
+[45/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_live_stats.cpp.o
+[46/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_prober.c.o
+[47/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_pacing_compositor.c.o
+[48/299] Building CXX object common/CMakeFiles/wivrn-common-base.dir/utils/xdg_base_directory.cpp.o
+[49/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_pacing_app.c.o
+[50/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_pacing_compositor_fake.c.o
+[51/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_resampler.c.o
+[52/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_session.c.o
+[53/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_trace_marker.c.o
+[54/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_time.cpp.o
+[55/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_tracked_imu_3dof.c.o
+[56/299] Building CXX object common/CMakeFiles/wivrn-common.dir/smp.cpp.o
+[57/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_system.c.o
+[58/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_win32_com_guard.cpp.o
+[59/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_system_helpers.c.o
+[60/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_hashset.cpp.o
+[61/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_git_tag.c.o
+[62/299] Building CXX object common/CMakeFiles/wivrn-common.dir/utils/xdg_base_directory.cpp.o
+[63/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_pretty_print.c.o
+[64/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_visibility_mask.c.o
+[65/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_clock_tracking.c.o
+[66/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_config_json.c.o
+[67/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_linux.c.o
+[68/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_id_ringbuffer.cpp.o
+[69/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_filter_fifo.c.o
+[70/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_json.c.o
+[71/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_worker.c.o
+[72/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_vector.cpp.o
+[73/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_imu_pre.c.o
+[74/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_space_overseer.c.o
+[75/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_imu_3dof.c.o
+[76/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_worker.cpp.o
+[77/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_predict.c.o
+[78/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_filter_one_euro.c.o
+[79/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_optics.c.o
+[80/299] Building C object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_permutation.c.o
+[81/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_matrix_projection.cpp.o
+[82/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_hash.cpp.o
+[83/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_cmd_pool.c.o
+[84/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_cmd.c.o
+[85/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_space.cpp.o
+[86/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_string_list.cpp.o
+[87/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_debug.c.o
+[88/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_compositor_flags.c.o
+[89/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_bundle_init.c.o
+[90/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_lowpass_integer.cpp.o
+[91/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_enumerate.c.o
+[92/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_function_loaders.c.o
+[93/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_image_allocator.c.o
+[94/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_lowpass_float.cpp.o
+[95/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_image_readback_to_xf_pool.c.o
+[96/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_print.c.o
+[97/299] Building C object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util_process.dir/u_process.c.o
+[98/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_state_creators.c.o
+[99/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_surface_info.c.o
+[100/299] Building C object _deps/monado-build/src/xrt/auxiliary/ogl/CMakeFiles/aux_ogl.dir/ogl_helpers.c.o
+[101/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_sync_objects.c.o
+[102/299] Building C object _deps/monado-build/src/xrt/auxiliary/ogl/CMakeFiles/aux_ogl.dir/glx_api.c.o
+[103/299] Building C object _deps/monado-build/src/xrt/auxiliary/ogl/CMakeFiles/aux_ogl.dir/egl_api.c.o
+[104/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_relation_history.cpp.o
+[105/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_gl_glue.c.o
+[106/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_time.c.o
+[107/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_gles_glue.c.o
+[108/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_multi.dir/multi/comp_multi_system.c.o
+[109/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_multi.dir/multi/comp_multi_compositor.c.o
+[110/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/util/CMakeFiles/aux_util.dir/u_var.cpp.o
+[111/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_gl_client.c.o
+[112/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_gl_memobj_swapchain.c.o
+[113/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_vk_glue.c.o
+[114/299] Building C object _deps/monado-build/src/xrt/auxiliary/vk/CMakeFiles/aux_vk.dir/vk_helpers.c.o
+[115/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_gl_xlib_glue.c.o
+[116/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_gl_xlib_client.c.o
+[117/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_gl_eglimage_swapchain.c.o
+[118/299] Linking CXX static library common/libwivrn-common-base.a
+[119/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_vk_client.c.o
+[120/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_client.dir/client/comp_egl_client.c.o
+[121/299] Building C object _deps/monado-build/src/xrt/auxiliary/bindings/CMakeFiles/aux_generated_bindings.dir/b_generated_bindings.c.o
+[122/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_xdev.c.o
+[123/299] Linking CXX static library _deps/monado-build/src/xrt/auxiliary/bindings/libaux_generated_bindings.a
+[124/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_swapchain.c.o
+[125/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_negotiate.c.o
+[126/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_session.c.o
+[127/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_system.c.o
+[128/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_dpad.c.o
+[129/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_space.c.o
+[130/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_action.c.o
+[131/299] Building C object _deps/monado-build/src/xrt/auxiliary/ogl/CMakeFiles/aux_ogl.dir/ogl_api.c.o
+[132/299] Linking CXX static library _deps/monado-build/src/xrt/auxiliary/util/libaux_util.a
+[133/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_frame_sync.c.o
+[134/299] Building CXX object common/CMakeFiles/wivrn-common.dir/wivrn_sockets.cpp.o
+[135/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_event.c.o
+[136/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_handle_base.c.o
+[137/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_pretty_print.c.o
+[138/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_logger.c.o
+[139/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_binding.c.o
+[140/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_instance.c.o
+[141/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_path.c.o
+[142/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_input_transform.c.o
+[143/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_space.c.o
+[144/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_session_gfx_vk.c.o
+[145/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_xdev.c.o
+[146/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_swapchain.c.o
+[147/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_system.c.o
+[148/299] Building CXX object common/CMakeFiles/wivrn-common.dir/vk/vk_mem_alloc.cpp.o
+[149/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_instance.c.o
+[150/299] Linking C static library server/libwivrn-server-dbus.a
+[151/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_swapchain_vk.c.o
+[152/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_swapchain_gl.c.o
+[153/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_session_gfx_gl_xlib.c.o
+[154/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_session_gfx_egl.c.o
+[155/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_verify.c.o
+[156/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_session.c.o
+[157/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_face_tracking2_fb.c.o
+[158/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_face_tracking.c.o
+[159/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_api_face_tracking.c.o
+[160/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_session_frame_end.c.o
+[161/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_vulkan.c.o
+[162/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_face_tracking2_fb.c.o
+[163/299] Building C object _deps/monado-build/src/xrt/state_trackers/oxr/CMakeFiles/st_oxr.dir/oxr_input.c.o
+[164/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_quatexpmap.cpp.o
+[165/299] Building CXX object common/CMakeFiles/wivrn-common.dir/vk/error_category.cpp.o
+[166/299] Building CXX object common/CMakeFiles/wivrn-common.dir/vk/allocation.cpp.o
+[167/299] Linking CXX static library common/libwivrn-common.a
+[168/299] Building CXX object _deps/monado-build/src/xrt/auxiliary/math/CMakeFiles/aux_math.dir/m_base.cpp.o
+[169/299] Linking CXX static library _deps/monado-build/src/xrt/auxiliary/math/libaux_math.a
+[170/299] Linking CXX static library _deps/monado-build/src/xrt/auxiliary/util/libaux_util_process.a
+[171/299] Linking CXX static library _deps/monado-build/src/xrt/compositor/libcomp_multi.a
+[172/299] Generating ipc_protocol_generated.h from protocol JSON description
+[173/299] Linking CXX static library _deps/monado-build/src/xrt/auxiliary/ogl/libaux_ogl.a
+[174/299] Linking CXX static library _deps/monado-build/src/xrt/auxiliary/vk/libaux_vk.a
+[175/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_shared.dir/shared/ipc_utils.c.o
+[176/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_shared.dir/shared/ipc_shmem.c.o
+[177/299] Linking CXX static library _deps/monado-build/src/xrt/compositor/libcomp_client.a
+[178/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_shared.dir/shared/ipc_message_channel_unix.c.o
+[179/299] Linking CXX static library _deps/monado-build/src/xrt/ipc/libipc_shared.a
+[180/299] Generating shaders/clear.comp.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/clear.comp
+[181/299] Generating shaders/mesh.vert.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/mesh.vert
+[182/299] Generating shaders/layer_cylinder.frag.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer_cylinder.frag
+[183/299] Generating shaders/layer_projection.vert.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer_projection.vert
+[184/299] Generating shaders/blit.comp.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/blit.comp
+[185/299] Generating shaders/distortion.comp.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/distortion.comp
+[186/299] Generating shaders/layer_equirect2.vert.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer_equirect2.vert
+[187/299] Generating shaders/layer_shared.frag.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer_shared.frag
+[188/299] Linking CXX static library _deps/monado-build/src/xrt/state_trackers/oxr/libst_oxr.a
+[189/299] Generating shaders/layer_quad.vert.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer_quad.vert
+[190/299] Generating shaders/layer_cylinder.vert.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer_cylinder.vert
+[191/299] Generating ipc_client_generated.c from protocol JSON description
+[192/299] Generating ipc_server_generated.h from protocol JSON description
+[193/299] Generating shaders/mesh.frag.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/mesh.frag
+[194/299] Generating shaders/layer_equirect2.frag.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer_equirect2.frag
+[195/299] Generating ipc_server_generated.c from protocol JSON description
+[196/299] Generating ipc_client_generated.h from protocol JSON description
+[197/299] Generating shaders/layer.comp.h
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/shaders/layer.comp
+[198/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_session.c.o
+[199/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_device.c.o
+[200/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_system.c.o
+[201/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_connection.c.o
+[202/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_server.dir/server/ipc_server_mainloop_linux.c.o
+[203/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_instance.c.o
+[204/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_system_devices.c.o
+[205/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_space_overseer.c.o
+[206/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_server.dir/server/ipc_server_per_client_thread.c.o
+[207/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_xdev.c.o
+[208/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_hmd.c.o
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/ipc/client/ipc_client_hmd.c: In function ‘ipc_client_hmd_get_view_poses’:
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/ipc/client/ipc_client_hmd.c:140:22: warning: ‘xret’ may be used uninitialized [-Wmaybe-uninitialized]
+  140 |         xrt_result_t xret;
+      |                      ^~~~
+[209/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_render.dir/render/render_buffer.c.o
+[210/299] Building C object _deps/monado-build/src/xrt/targets/libmonado/CMakeFiles/monado.dir/monado.c.o
+[211/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_server.dir/ipc_server_generated.c.o
+[212/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/client/ipc_client_compositor.c.o
+[213/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_layer_accum.c.o
+[214/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_server.dir/server/ipc_server_process.c.o
+[215/299] Building C object _deps/monado-build/src/xrt/targets/openxr/CMakeFiles/openxr_wivrn.dir/target.c.o
+[216/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_render.dir/render/render_sub_alloc.c.o
+[217/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_render.dir/render/render_shaders.c.o
+[218/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_render.dir/render/render_util.c.o
+[219/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_base.c.o
+[220/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_render.dir/render/render_compute.c.o
+[221/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_semaphore.c.o
+[222/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_sync.c.o
+[223/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_render.dir/render/render_gfx.c.o
+[224/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_vulkan.c.o
+[225/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_scratch.c.o
+[226/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_swapchain.c.o
+[227/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_render_cs.c.o
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/util/comp_render_cs.c: In function ‘crc_distortion_fast_path’:
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/util/comp_render_cs.c:431:25: warning: variable ‘world_poses’ set but not used [-Wunused-but-set-variable]
+  431 |         struct xrt_pose world_poses[XRT_MAX_VIEWS];
+      |                         ^~~~~~~~~~~
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/util/comp_render_cs.c:430:25: warning: variable ‘src_poses’ set but not used [-Wunused-but-set-variable]
+  430 |         struct xrt_pose src_poses[XRT_MAX_VIEWS];
+      |                         ^~~~~~~~~
+/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-src/src/xrt/compositor/util/comp_render_cs.c:429:24: warning: variable ‘src_fovs’ set but not used [-Wunused-but-set-variable]
+  429 |         struct xrt_fov src_fovs[XRT_MAX_VIEWS];
+      |                        ^~~~~~~~
+[228/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_render.dir/render/render_resources.c.o
+[229/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_client.dir/ipc_client_generated.c.o
+[230/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_util.dir/util/comp_render_gfx.c.o
+[231/299] Linking CXX static library _deps/monado-build/src/xrt/compositor/libcomp_render.a
+[232/299] Linking CXX static library _deps/monado-build/src/xrt/ipc/libipc_client.a
+[233/299] Building C object _deps/monado-build/src/xrt/ipc/CMakeFiles/ipc_server.dir/server/ipc_server_handler.c.o
+[234/299] Linking CXX static library _deps/monado-build/src/xrt/compositor/libcomp_util.a
+[235/299] Linking CXX shared library _deps/monado-build/src/xrt/targets/libmonado/libmonado_wivrn.so.0.0.0
+[236/299] Generating /home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-build/src/xrt/compositor/wayland-protocols/drm-lease-v1.c
+[237/299] Generating /home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-build/src/xrt/compositor/wayland-protocols/xdg-shell.c
+[238/299] Generating /home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-build/src/xrt/compositor/wayland-protocols/drm-lease-v1-client-protocol.h
+[239/299] Generating /home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/xrservice/build/_deps/monado-build/src/xrt/compositor/wayland-protocols/xdg-shell-client-protocol.h
+[240/299] Creating library symlink _deps/monado-build/src/xrt/targets/libmonado/libmonado_wivrn.so.25 _deps/monado-build/src/xrt/targets/libmonado/libmonado_wivrn.so
+[241/299] Linking CXX static library _deps/monado-build/src/xrt/ipc/libipc_server.a
+[242/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/wayland-protocols/xdg-shell.c.o
+[243/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/wayland-protocols/drm-lease-v1.c.o
+[244/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_settings.c.o
+[245/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_window_vk_display.c.o
+[246/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_window_direct.c.o
+[247/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_window_xcb.c.o
+[248/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_window_direct_randr.c.o
+[249/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_window_direct_nvidia.c.o
+[250/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_window_wayland.c.o
+[251/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_window_direct_wayland.c.o
+[252/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_mirror_to_debug_gui.c.o
+[253/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_compositor.c.o
+[254/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_target_swapchain.c.o
+[255/299] Building C object _deps/monado-build/src/xrt/compositor/CMakeFiles/comp_main.dir/main/comp_renderer.c.o
+[256/299] Building CXX object server/CMakeFiles/wivrn-server.dir/hostname.cpp.o
+[257/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/app_pacer.cpp.o
+[258/299] Building CXX object server/CMakeFiles/wivrn-server.dir/sleep_inhibitor.cpp.o
+[259/299] Building CXX object server/CMakeFiles/wivrn-server.dir/avahi_publisher.cpp.o
+[260/299] Building CXX object server/CMakeFiles/wivrn-server.dir/audio/audio_setup.cpp.o
+[261/299] Building CXX object server/CMakeFiles/wivrn-server.dir/accept_connection.cpp.o
+[262/299] Building CXX object server/CMakeFiles/wivrn-server.dir/target_instance_wivrn.cpp.o
+[263/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_pacer.cpp.o
+[264/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/clock_offset.cpp.o
+[265/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_eye_tracker.cpp.o
+[266/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_hmd.cpp.o
+[267/299] Building CXX object server/CMakeFiles/wivrn-server.dir/wivrn_ipc.cpp.o
+[268/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/xrt_cast.cpp.o
+[269/299] Building CXX object server/CMakeFiles/wivrn-server.dir/start_application.cpp.o
+[270/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_htc_face_tracker.cpp.o
+[271/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/view_list.cpp.o
+[272/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/hand_joints_list.cpp.o
+[273/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_fb_face2_tracker.cpp.o
+[274/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_controller.cpp.o
+[275/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/pose_list.cpp.o
+[276/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/ffmpeg/ffmpeg_helper.cpp.o
+[277/299] Building CXX object server/CMakeFiles/wivrn-server.dir/active_runtime.cpp.o
+[278/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_generic_tracker.cpp.o
+[279/299] Linking CXX static library _deps/monado-build/src/xrt/compositor/libcomp_main.a
+[280/299] Building CXX object server/CMakeFiles/wivrn-server.dir/audio/audio_pipewire.cpp.o
+[281/299] Linking CXX shared module _deps/monado-build/src/xrt/targets/openxr/libopenxr_wivrn.so
+[282/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/encoder_settings.cpp.o
+[283/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/ffmpeg/video_encoder_ffmpeg.cpp.o
+[284/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/video_encoder.cpp.o
+[285/299] Building CXX object server/CMakeFiles/wivrn-server.dir/audio/audio_pulse.cpp.o
+[286/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/video_encoder_x264.cpp.o
+[287/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_foveation.cpp.o
+[288/299] Building CXX object server/CMakeFiles/wivrn-server.dir/utils/wivrn_vk_bundle.cpp.o
+[289/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_connection.cpp.o
+[290/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/configuration.cpp.o
+[291/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/video_encoder_nvenc.cpp.o
+[292/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_comp_target.cpp.o
+[293/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/video_encoder_vulkan_h264.cpp.o
+[294/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/ffmpeg/video_encoder_va.cpp.o
+[295/299] Building CXX object server/CMakeFiles/wivrn-server.dir/driver/wivrn_session.cpp.o
+[296/299] Building CXX object server/CMakeFiles/wivrn-server.dir/main.cpp.o
+[297/299] Building CXX object server/CMakeFiles/wivrn-server.dir/encoder/video_encoder_vulkan.cpp.o
+[298/299] Linking CXX executable server/wivrn-server
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/lib/systemd/user/wivrn.service
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/lib/systemd/user/wivrn-application.service
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/lib/firewalld/services/wivrn.xml
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/bin/wivrn-server
+-- Installing OpenXR runtime manifest with JSON-relative path to library
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/share/openxr/1/openxr_wivrn.json
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/lib/wivrn/libopenxr_wivrn.so
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/lib/wivrn/libmonado_wivrn.so.0.0.0
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/lib/wivrn/libmonado_wivrn.so.25
+-- Installing: /home/puppy/.local/share/envision/prefixes/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/lib/wivrn/libmonado_wivrn.so
+Building VapoR...
+Cloning into '/home/puppy/.local/share/envision/d5a7eb10-54aa-4237-a3c8-9c2b7d50bd87/OpenComposite'...
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+-- The CXX compiler identification is GNU 15.1.1
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+-- The C compiler identification is GNU 15.1.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Python3: /usr/bin/python3.13 (found version "3.13.5") found components: Interpreter
+-- Performing Test HAVE_FILESYSTEM_WITHOUT_LIB
+-- Performing Test HAVE_FILESYSTEM_WITHOUT_LIB - Failed
+-- Performing Test HAVE_FILESYSTEM_NEEDING_LIBSTDCXXFS
+-- Performing Test HAVE_FILESYSTEM_NEEDING_LIBSTDCXXFS - Success
+-- Performing Test HAVE_FILESYSTEM_NEEDING_LIBCXXFS
+-- Performing Test HAVE_FILESYSTEM_NEEDING_LIBCXXFS - Failed
+-- Found OpenGL: /usr/lib/libOpenGL.so
+-- Enabling OpenGL support
+-- Found Vulkan: /lib/libvulkan.so (found version "1.4.321") found components: glslc glslangValidator
+-- Enabling Vulkan support
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found JsonCpp: /usr/include
+-- Presentation backend selected for hello_xr, loader_test, conformance: xlib
+-- Found X11: /usr/include
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Checking for one of the modules 'xcb'
+-- Checking for one of the modules 'xcb-glx'
+-- Checking for one of the modules 'wayland-client'
+-- BUILD_WITH_XLIB_HEADERS: ON
+-- BUILD_WITH_XCB_HEADERS: ON
+-- BUILD_WITH_WAYLAND_HEADERS: ON
+-- Found glslc: /usr/bin/glslc
+-- Looking for secure_getenv
+-- Looking for secure_getenv - found
+-- Looking for __secure_getenv
+-- Looking for __secure_getenv - not found
+-- Looking for timespec_get
+-- Looking for timespec_get - found
+-- OpenXR 1.1.47
+-- Found and will use pre-generated xr_generated_dispatch_table.h in source tree
+-- Found and will use pre-generated xr_generated_dispatch_table.c in source tree
+-- Found and will use pre-generated xr_generated_dispatch_table_core.h in source tree
+-- Found and will use pre-generated xr_generated_dispatch_table_core.c in source tree
+-- Performing Test SUPPORTS_Wall
+-- Performing Test SUPPORTS_Wall - Success
+-- Performing Test SUPPORTS_C_Wall
+-- Performing Test SUPPORTS_C_Wall - Success
+-- Performing Test SUPPORTS_Werrorunusedparameter
+-- Performing Test SUPPORTS_Werrorunusedparameter - Success
+-- Performing Test SUPPORTS_C_Werrorunusedparameter
+-- Performing Test SUPPORTS_C_Werrorunusedparameter - Success
+-- Performing Test SUPPORTS_Werrorunusedargument
+-- Performing Test SUPPORTS_Werrorunusedargument - Failed
+-- Performing Test SUPPORTS_C_Werrorunusedargument
+-- Performing Test SUPPORTS_C_Werrorunusedargument - Failed
+-- Performing Test SUPPORTS_Wpointerarith
+-- Performing Test SUPPORTS_Wpointerarith - Success
+-- Performing Test SUPPORTS_C_Wpointerarith
+-- Performing Test SUPPORTS_C_Wpointerarith - Success
+-- Found and will use pre-generated xr_generated_loader.hpp in source tree
+-- Found and will use pre-generated xr_generated_loader.cpp in source tree
+-- Checking for module 'opengl'
+--   Found opengl, version 4.5
+-- Checking for module 'x11'
+--   Found x11, version 1.8.12
+-- Checking for module 'glx'
+--   Found glx, version 1.4
+-- Checking for module 'nlohmann_json'
+--   Found nlohmann_json, version 3.12.0
+-- Configuring done (5.2s)
+CMake Error in build/_deps/openxr-src/src/loader/CMakeLists.txt:
+  install(EXPORT "openxr_loader_export" ...) includes target "openxr_loader"
+  which requires target "jsoncpp_interface" that is not in any export set.
+
+
+CMake Error in build/_deps/openxr-src/src/loader/CMakeLists.txt:
+  export called with target "openxr_loader" which requires target
+  "jsoncpp_interface" that is not in any export set.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done (0.0s)
+Build failed!
+
