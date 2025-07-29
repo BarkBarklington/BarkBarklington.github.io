@@ -1,0 +1,62 @@
+-- Configuring done (9.3s)
+CMake Error at frontend/cmake/os-linux.cmake:6 (target_link_libraries):
+  Target "obs-studio" links to:
+
+    Qt::GuiPrivate
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+Call Stack (most recent call first):
+  frontend/CMakeLists.txt:81 (include)
+
+
+CMake Error at frontend/plugins/aja-output-ui/CMakeLists.txt:40 (target_link_libraries):
+  Target "aja-output-ui" links to:
+
+    Qt::GuiPrivate
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at frontend/plugins/decklink-output-ui/CMakeLists.txt:32 (target_link_libraries):
+  Target "decklink-output-ui" links to:
+
+    Qt::GuiPrivate
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at frontend/plugins/frontend-tools/CMakeLists.txt:57 (target_link_libraries):
+  Target "frontend-tools" links to:
+
+    Qt::GuiPrivate
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+-- Generating done (0.6s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+==> ERROR: A failure occurred in build().
+    Aborting...
+ -> error making: obs-studio-tytan652-exit status 4
+ -> Failed to install the following packages. Manual intervention is required:
+obs-studio-tytan652 - exit status 4
