@@ -1,0 +1,906 @@
+2025-12-04 08:51:25,762 - jackify.backend.services.resource_manager - DEBUG - ResourceManager initialized
+2025-12-04 08:51:25,762 - jackify.backend.services.resource_manager - INFO - Applying recommended resource limits for Jackify operations
+2025-12-04 08:51:25,762 - jackify.backend.services.resource_manager - INFO - Current file descriptor limits: soft=64556, hard=1048576
+2025-12-04 08:51:25,762 - jackify.backend.services.resource_manager - INFO - File descriptor limit already adequate: 64556 >= 64556
+2025-12-04 08:51:25,762 - jackify.backend.services.resource_manager - INFO - Resource limits applied successfully. Current file descriptors: 64556
+2025-12-04 08:51:25,774 - jackify.backend.services.protontricks_detection_service - DEBUG - ProtontricksDetectionService initialized (steamdeck=False)
+2025-12-04 08:51:26,164 - root - DEBUG - Readline imported for tab completion
+2025-12-04 08:51:26,165 - root - DEBUG - Readline does not have set_prompt capability, will use fallback
+2025-12-04 08:51:26,165 - root - DEBUG - Readline tab completion successfully configured
+2025-12-04 08:51:26,165 - root - DEBUG - Readline has completion display hook capability
+2025-12-04 08:51:26,165 - root - DEBUG - Custom completion display hook successfully set
+2025-12-04 08:51:26,375 - jackify.frontends.gui.screens.modlist_tasks - INFO - ModlistTasksScreen initializing (migrated version)
+2025-12-04 08:51:26,379 - jackify.frontends.gui.screens.modlist_tasks - INFO - ModlistTasksScreen initialized (migrated version)
+2025-12-04 08:51:26,381 - jackify.backend.services.api_key_service - DEBUG - APIKeyService initialized
+2025-12-04 08:51:26,381 - jackify.backend.services.resolution_service - DEBUG - ResolutionService initialized
+2025-12-04 08:51:26,381 - jackify.backend.services.protontricks_detection_service - DEBUG - ProtontricksDetectionService initialized (steamdeck=False)
+2025-12-04 08:51:26,403 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:51:26,403 - jackify.backend.services.api_key_service - DEBUG - Retrieved saved API key
+2025-12-04 08:51:26,406 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:51:26,419 - jackify.backend.handlers.config_handler - DEBUG - No saved resolution found
+2025-12-04 08:51:26,419 - jackify.backend.services.resolution_service - DEBUG - No saved resolution found
+2025-12-04 08:51:26,425 - jackify.backend.services.api_key_service - DEBUG - APIKeyService initialized
+2025-12-04 08:51:26,425 - jackify.backend.services.resolution_service - DEBUG - ResolutionService initialized
+2025-12-04 08:51:26,425 - jackify.backend.services.protontricks_detection_service - DEBUG - ProtontricksDetectionService initialized (steamdeck=False)
+2025-12-04 08:51:26,428 - jackify.backend.handlers.config_handler - DEBUG - No saved resolution found
+2025-12-04 08:51:26,428 - jackify.backend.services.resolution_service - DEBUG - No saved resolution found
+2025-12-04 08:51:26,434 - jackify.backend.services.platform_detection_service - DEBUG - Performing platform detection...
+2025-12-04 08:51:26,435 - jackify.backend.services.platform_detection_service - DEBUG - Non-Steam Deck Linux platform detected
+2025-12-04 08:51:26,435 - jackify.backend.services.platform_detection_service - DEBUG - Platform detection complete: is_steamdeck=False
+2025-12-04 08:51:26,441 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:51:26,441 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:51:26,443 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:51:26,443 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:51:26,443 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:51:26,443 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:51:26,443 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:51:26,443 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:51:26,444 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:51:26,444 - jackify.backend.services.api_key_service - DEBUG - APIKeyService initialized
+2025-12-04 08:51:26,444 - jackify.backend.services.resolution_service - DEBUG - ResolutionService initialized
+2025-12-04 08:51:26,459 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:51:26,459 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:51:26,459 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:51:26,459 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:51:26,459 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:51:26,459 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:51:26,459 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:51:26,459 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:51:26,459 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:51:26,459 - jackify.backend.handlers.shortcut_handler - INFO - Scanning /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf for executable: ModOrganizer.exe
+2025-12-04 08:51:26,459 - jackify.backend.handlers.shortcut_handler - DEBUG - Parsing shortcuts file: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:51:26,460 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load binary VDF with ValvePython/vdf: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - DEBUG - Skipping shortcut 'TheOuterWorlds2.exe': Exe path '/var/home/puppy/Games/The-Outer-Worlds-2-SteamRIP/TheOuterWorlds2/TheOuterWorlds2.exe' does not contain 'ModOrganizer.exe'
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - DEBUG - Skipping shortcut 'prime-video': Exe path '/var/home/puppy/Applications/streaming_scripts/prime-video' does not contain 'ModOrganizer.exe'
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - DEBUG - Skipping shortcut 'amazon-luna': Exe path '/var/home/puppy/Applications/streaming_scripts/amazon-luna' does not contain 'ModOrganizer.exe'
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - DEBUG - Skipping shortcut 'Youtube': Exe path '/var/home/puppy/Applications/streaming_scripts/Youtube' does not contain 'ModOrganizer.exe'
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - DEBUG - Skipping shortcut 'hoi4.exe': Exe path '/home/puppy/Games/Hearts-of-Iron-IV-SteamRIP/Hearts of Iron IV/hoi4.exe' does not contain 'ModOrganizer.exe'
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - DEBUG - Skipping shortcut 'OpenMPT-1.32.05.00[1330016]': Exe path '/home/puppy/.steam/steam/steamapps/compatdata/2975937045/pfx/drive_c/Program Files/OpenMPT/bin/amd64/OpenMPT.exe' does not contain 'ModOrganizer.exe'
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - DEBUG - Skipping shortcut 'Wabbajack.exe': Exe path '/var/home/puppy/Wabbajack/Wabbajack.exe' does not contain 'ModOrganizer.exe'
+2025-12-04 08:51:26,460 - jackify.backend.handlers.shortcut_handler - INFO - Found matching shortcut 'ModOrganizer.exe' in /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:51:26,462 - jackify.backend.handlers.config_handler - DEBUG - No saved resolution found
+2025-12-04 08:51:26,462 - jackify.backend.services.resolution_service - DEBUG - No saved resolution found
+2025-12-04 08:51:26,464 - jackify.backend.services.api_key_service - DEBUG - APIKeyService initialized
+2025-12-04 08:51:26,464 - jackify.backend.services.resolution_service - DEBUG - ResolutionService initialized
+2025-12-04 08:51:26,464 - jackify.backend.services.protontricks_detection_service - DEBUG - ProtontricksDetectionService initialized (steamdeck=False)
+2025-12-04 08:51:26,479 - jackify.backend.services.protontricks_detection_service - INFO - Detecting protontricks installation...
+2025-12-04 08:51:26,480 - jackify.backend.services.protontricks_detection_service - DEBUG - Detected Protontricks is a Flatpak wrapper at /usr/bin/protontricks
+2025-12-04 08:51:26,583 - jackify.backend.services.protontricks_detection_service - INFO - Flatpak Protontricks is installed
+2025-12-04 08:51:26,584 - jackify.backend.services.protontricks_detection_service - INFO - Protontricks detection complete: Flatpak protontricks is installed
+2025-12-04 08:51:26,621 - jackify.backend.services.update_service - DEBUG - Checking for updates at https://api.github.com/repos/Omni-guides/Jackify/releases/latest
+2025-12-04 08:51:26,625 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.github.com:443
+2025-12-04 08:51:26,796 - urllib3.connectionpool - DEBUG - https://api.github.com:443 "GET /repos/Omni-guides/Jackify/releases/latest HTTP/1.1" 200 1490
+2025-12-04 08:51:29,023 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:51:29,041 - jackify.backend.handlers.wine_utils - INFO - Scanning for all available Proton versions...
+2025-12-04 08:51:29,041 - jackify.backend.handlers.wine_utils - INFO - Scanning for available GE-Proton versions...
+2025-12-04 08:51:29,042 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/steam/compatibilitytools.d
+2025-12-04 08:51:29,042 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:29,042 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:29,043 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.local/share/Steam/compatibilitytools.d
+2025-12-04 08:51:29,043 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.local/share/Steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:29,043 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:29,043 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/root/compatibilitytools.d
+2025-12-04 08:51:29,043 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/root/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:29,044 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:29,044 - jackify.backend.handlers.wine_utils - INFO - Found 3 GE-Proton version(s)
+2025-12-04 08:51:29,044 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 08:51:29,044 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 08:51:29,044 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:51:29,045 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 08:51:29,045 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 08:51:29,046 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,046 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,047 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,047 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:29,047 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,047 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,047 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,047 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,048 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,048 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:29,048 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,048 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,048 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 08:51:29,048 - jackify.backend.handlers.wine_utils - INFO - Found 3 total Proton version(s)
+2025-12-04 08:51:29,048 - jackify.backend.handlers.wine_utils - INFO - Best available: GE-Proton10-25 (GE-Proton)
+2025-12-04 08:51:29,049 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 08:51:29,049 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 08:51:29,049 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:51:29,050 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 08:51:29,050 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 08:51:29,050 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 08:51:29,050 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 08:51:29,050 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,051 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:29,052 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,052 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,052 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,052 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,052 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,052 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:29,052 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,053 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,053 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 08:51:29,053 - jackify.backend.handlers.wine_utils - INFO - Scanning for all available Proton versions...
+2025-12-04 08:51:29,053 - jackify.backend.handlers.wine_utils - INFO - Scanning for available GE-Proton versions...
+2025-12-04 08:51:29,053 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/steam/compatibilitytools.d
+2025-12-04 08:51:29,054 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:29,054 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:29,054 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.local/share/Steam/compatibilitytools.d
+2025-12-04 08:51:29,054 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.local/share/Steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:29,055 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:29,055 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/root/compatibilitytools.d
+2025-12-04 08:51:29,055 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/root/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:29,055 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:29,055 - jackify.backend.handlers.wine_utils - INFO - Found 3 GE-Proton version(s)
+2025-12-04 08:51:29,055 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 08:51:29,055 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 08:51:29,056 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:51:29,056 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 08:51:29,056 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 08:51:29,056 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 08:51:29,056 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,057 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,058 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:29,058 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,058 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,058 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:29,058 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,058 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,059 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:29,059 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 08:51:29,059 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 08:51:29,059 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 08:51:29,059 - jackify.backend.handlers.wine_utils - INFO - Found 3 total Proton version(s)
+2025-12-04 08:51:29,059 - jackify.backend.handlers.wine_utils - INFO - Best available: GE-Proton10-25 (GE-Proton)
+2025-12-04 08:51:41,988 - jackify.backend.handlers.config_handler - DEBUG - API key saved successfully
+2025-12-04 08:51:41,988 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 08:51:41,988 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 08:51:41,988 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 08:51:41,989 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 08:51:41,989 - jackify.frontends.gui.main - INFO - Saved Proton config: install_path=/var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental, game_path=/var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:41,989 - jackify.frontends.gui.main - DEBUG - Config save verified successfully
+2025-12-04 08:51:45,086 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:51:45,089 - jackify.backend.handlers.wine_utils - INFO - Scanning for all available Proton versions...
+2025-12-04 08:51:45,089 - jackify.backend.handlers.wine_utils - INFO - Scanning for available GE-Proton versions...
+2025-12-04 08:51:45,090 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/steam/compatibilitytools.d
+2025-12-04 08:51:45,090 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:45,090 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:45,090 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.local/share/Steam/compatibilitytools.d
+2025-12-04 08:51:45,091 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.local/share/Steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:45,091 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:45,091 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/root/compatibilitytools.d
+2025-12-04 08:51:45,091 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/root/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:45,091 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:45,092 - jackify.backend.handlers.wine_utils - INFO - Found 3 GE-Proton version(s)
+2025-12-04 08:51:45,092 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 08:51:45,092 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 08:51:45,092 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:51:45,092 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 08:51:45,093 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 08:51:45,093 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 08:51:45,093 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 08:51:45,093 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,093 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:45,093 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,093 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:45,094 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 08:51:45,094 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,094 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,094 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,094 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:45,094 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,094 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,095 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,095 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,095 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,095 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:45,095 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,095 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,095 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 08:51:45,096 - jackify.backend.handlers.wine_utils - INFO - Found 3 total Proton version(s)
+2025-12-04 08:51:45,096 - jackify.backend.handlers.wine_utils - INFO - Best available: GE-Proton10-25 (GE-Proton)
+2025-12-04 08:51:45,096 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 08:51:45,096 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 08:51:45,096 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:51:45,096 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 08:51:45,097 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 08:51:45,097 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 08:51:45,097 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 08:51:45,097 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,097 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:45,098 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,099 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,099 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,099 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,099 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,099 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:45,099 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,099 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,100 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 08:51:45,100 - jackify.backend.handlers.wine_utils - INFO - Scanning for all available Proton versions...
+2025-12-04 08:51:45,100 - jackify.backend.handlers.wine_utils - INFO - Scanning for available GE-Proton versions...
+2025-12-04 08:51:45,100 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/steam/compatibilitytools.d
+2025-12-04 08:51:45,100 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:45,101 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:45,101 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.local/share/Steam/compatibilitytools.d
+2025-12-04 08:51:45,101 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.local/share/Steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:45,101 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:45,101 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/root/compatibilitytools.d
+2025-12-04 08:51:45,102 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/root/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 08:51:45,102 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 08:51:45,102 - jackify.backend.handlers.wine_utils - INFO - Found 3 GE-Proton version(s)
+2025-12-04 08:51:45,102 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 08:51:45,102 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 08:51:45,102 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:51:45,102 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 08:51:45,103 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 08:51:45,103 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 08:51:45,103 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 08:51:45,103 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,103 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:45,103 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,104 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,105 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:51:45,105 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,105 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,105 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 08:51:45,105 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 08:51:45,105 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 08:51:45,106 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 08:51:45,106 - jackify.backend.handlers.wine_utils - INFO - Found 3 total Proton version(s)
+2025-12-04 08:51:45,106 - jackify.backend.handlers.wine_utils - INFO - Best available: GE-Proton10-25 (GE-Proton)
+2025-12-04 08:54:02,133 - jackify.backend.handlers.config_handler - DEBUG - API key saved successfully
+2025-12-04 08:54:02,133 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 08:54:02,134 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 08:54:02,134 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 08:54:02,134 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 08:54:02,134 - jackify.frontends.gui.main - INFO - Saved Proton config: install_path=/var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental, game_path=/var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:54:02,134 - jackify.frontends.gui.main - DEBUG - Config save verified successfully
+2025-12-04 08:54:16,358 - jackify.frontends.gui.screens.modlist_tasks - INFO - Modlist tasks menu action: install_modlist
+2025-12-04 08:54:16,374 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:54:16,374 - jackify.backend.services.api_key_service - DEBUG - Retrieved saved API key
+2025-12-04 08:54:16,375 - jackify.backend.handlers.config_handler - DEBUG - No saved resolution found
+2025-12-04 08:54:16,376 - jackify.backend.services.resolution_service - DEBUG - No saved resolution found
+2025-12-04 08:54:23,004 - jackify.backend.services.modlist_service - INFO - Listing modlists for game_type: falloutnv
+2025-12-04 08:54:23,007 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:54:23,008 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:54:23,008 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:54:23,008 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:54:23,008 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:54:23,009 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:54:23,009 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:54:23,009 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:23,009 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:23,009 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:54:23,009 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:54:23,010 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:54:23,010 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:54:23,010 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:54:23,010 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:54:23,010 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:54:23,010 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:23,010 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:23,886 - jackify.backend.services.modlist_service - INFO - Found 13 modlists
+2025-12-04 08:54:33,548 - jackify.backend.services.modlist_service - INFO - Listing modlists for game_type: None
+2025-12-04 08:54:33,548 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:54:33,548 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:54:33,549 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:54:33,549 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:54:33,549 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:54:33,549 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:54:33,549 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:54:33,549 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:33,549 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:33,550 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:54:33,550 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:54:33,550 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:54:33,551 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:54:33,551 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:54:33,552 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:54:33,552 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:54:33,552 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:33,552 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:54:34,370 - jackify.backend.services.modlist_service - INFO - Found 186 modlists
+2025-12-04 08:56:57,266 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:56:57,267 - jackify.backend.services.protontricks_detection_service - INFO - Detecting protontricks installation...
+2025-12-04 08:56:57,267 - jackify.backend.services.protontricks_detection_service - DEBUG - Detected Protontricks is a Flatpak wrapper at /usr/bin/protontricks
+2025-12-04 08:56:57,369 - jackify.backend.services.protontricks_detection_service - INFO - Flatpak Protontricks is installed
+2025-12-04 08:56:57,369 - jackify.backend.services.protontricks_detection_service - INFO - Protontricks detection complete: Flatpak protontricks is installed
+2025-12-04 08:56:57,372 - jackify.backend.handlers.config_handler - DEBUG - API key saved successfully
+2025-12-04 08:56:57,372 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 08:56:57,373 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 08:56:57,373 - jackify.backend.services.api_key_service - INFO - API key saved successfully
+2025-12-04 08:56:57,373 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:56:57,373 - jackify.backend.handlers.config_handler - DEBUG - Resolution saved: 1920x1080
+2025-12-04 08:56:57,374 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 08:56:57,374 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 08:56:57,374 - jackify.backend.services.resolution_service - INFO - Resolution saved successfully: 1920x1080
+2025-12-04 08:56:57,452 - jackify.backend.handlers.wabbajack_parser - INFO - Detected game type: FalloutNewVegas -> falloutnv
+2025-12-04 08:57:49,430 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:57:49,474 - jackify.backend.services.automated_prefix_service - INFO - Starting proven working automated prefix creation workflow
+2025-12-04 08:57:49,480 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:57:49,481 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:57:49,481 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:57:49,481 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:57:49,481 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:57:49,482 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:57:49,482 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:57:49,482 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:57:49,482 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:57:49,483 - jackify.backend.services.automated_prefix_service - INFO - Using registry injection approach for FNV modlist
+2025-12-04 08:57:49,483 - jackify.backend.services.automated_prefix_service - INFO - Step 1: Creating shortcut with native Steam service
+2025-12-04 08:57:49,483 - jackify.backend.services.automated_prefix_service - INFO - Conflict detection temporarily disabled - proceeding with shortcut creation
+2025-12-04 08:57:49,483 - jackify.backend.services.automated_prefix_service - INFO - Creating shortcut with native service: Viva New Vegas
+2025-12-04 08:57:49,483 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 08:57:49,484 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:57:49,484 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 08:57:49,484 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 08:57:49,484 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 08:57:49,485 - jackify.backend.handlers.path_handler - DEBUG - Attempting to find Steam library...
+2025-12-04 08:57:49,485 - jackify.backend.handlers.path_handler - DEBUG - Created backup of libraryfolders.vdf at /home/puppy/.steam/steam/config/backups/libraryfolders_20251204.vdf.bak
+2025-12-04 08:57:49,486 - jackify.backend.handlers.path_handler - DEBUG - Found libraryfolders.vdf at: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 08:57:49,486 - jackify.backend.handlers.path_handler - DEBUG - Found potential common path: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:57:49,486 - jackify.backend.handlers.path_handler - DEBUG - Found 1 valid library common paths from VDF.
+2025-12-04 08:57:49,486 - jackify.backend.handlers.path_handler - INFO - Using Steam library common path: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 08:57:49,486 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 08:57:49,486 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh game proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 08:57:49,486 - jackify.backend.services.automated_prefix_service - INFO - Using user-selected Proton: proton_experimental
+2025-12-04 08:57:49,486 - jackify.backend.services.native_steam_service - INFO - Creating shortcut with Proton: 'Viva New Vegas' -> 'proton_experimental'
+2025-12-04 08:57:49,486 - jackify.backend.services.native_steam_service - INFO - Creating shortcut 'Viva New Vegas' for '/home/puppy/Wabbajack/Modding/ModOrganizer.exe'
+2025-12-04 08:57:49,486 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:57:49,486 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:57:49,487 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:57:49,487 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:57:49,487 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:57:49,487 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:57:49,487 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:57:49,487 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:57:49,494 - jackify.backend.services.native_steam_service - INFO - Generated random AppID for 'Viva New Vegas': -784701134 (unsigned: 3510266162)
+2025-12-04 08:57:49,495 - jackify.backend.services.native_steam_service - INFO - Created backup: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf.backup_1764856669
+2025-12-04 08:57:49,496 - jackify.backend.services.native_steam_service - INFO - Successfully wrote shortcuts.vdf
+2025-12-04 08:57:49,496 - jackify.backend.services.native_steam_service - INFO - Shortcut created successfully at index 8
+2025-12-04 08:57:49,496 - jackify.backend.services.native_steam_service - INFO - Setting Proton version 'proton_experimental' for AppID 3510266162 using STL-compatible format
+2025-12-04 08:57:49,496 - jackify.backend.services.native_steam_service - INFO - Created backup: /home/puppy/.steam/steam/config/config.vdf.backup_1764856669
+2025-12-04 08:57:49,497 - jackify.backend.services.native_steam_service - INFO - Successfully set Proton version 'proton_experimental' for AppID 3510266162 using config.vdf only (steam-conductor method)
+2025-12-04 08:57:49,497 - jackify.backend.services.native_steam_service - INFO - Complete workflow successful: 'Viva New Vegas' with 'proton_experimental'
+2025-12-04 08:57:49,497 - jackify.backend.services.automated_prefix_service - INFO -  Native Steam service created shortcut successfully with AppID: 3510266162
+2025-12-04 08:57:49,497 - jackify.backend.services.automated_prefix_service - INFO - Step 1 completed: Shortcut created with native service, AppID: 3510266162
+2025-12-04 08:57:49,498 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 08:57:49,498 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 08:57:49,499 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 08:57:49,499 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 08:57:49,499 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 08:57:49,499 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 08:57:49,499 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 08:57:49,499 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:57:49,499 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 08:57:49,499 - jackify.backend.services.automated_prefix_service - INFO - Applied Steam artwork for shortcut 'Viva New Vegas' (AppID: 3510266162)
+2025-12-04 08:57:49,499 - jackify.backend.services.automated_prefix_service - INFO - Step 2: Restarting Steam using Jackify's robust method
+2025-12-04 08:57:49,554 - jackify.backend.services.steam_restart_service - DEBUG - Steam restart: Cleaned PyInstaller environment variables: LD_LIBRARY_PATH (removed)
+2025-12-04 08:57:49,554 - jackify.backend.services.steam_restart_service - INFO - Shutting down Steam...
+2025-12-04 08:57:49,676 - jackify.backend.services.steam_restart_service - DEBUG - pkill steam result: 0
+2025-12-04 08:57:51,721 - jackify.backend.services.steam_restart_service - INFO - Steam processes successfully terminated.
+2025-12-04 08:57:51,721 - jackify.backend.services.steam_restart_service - INFO - Steam closed successfully.
+2025-12-04 08:57:51,721 - jackify.backend.services.steam_restart_service - INFO - Starting Steam...
+2025-12-04 08:57:51,722 - jackify.backend.services.steam_restart_service - DEBUG - Steam restart: Cleaned PyInstaller environment variables: LD_LIBRARY_PATH (removed)
+2025-12-04 08:57:51,803 - jackify.backend.services.steam_restart_service - INFO - Attempting to start Steam using method: Popen
+2025-12-04 08:57:51,804 - jackify.backend.services.steam_restart_service - INFO - Initiated Steam start with Popen.
+2025-12-04 08:57:56,847 - jackify.backend.services.steam_restart_service - INFO - Steam process detected after using Popen. Proceeding to wait phase.
+2025-12-04 08:57:56,848 - jackify.backend.services.steam_restart_service - INFO - Waiting for Steam to fully start
+2025-12-04 08:57:56,848 - jackify.backend.services.steam_restart_service - INFO - Waiting up to 2 minutes for Steam to fully initialize...
+2025-12-04 08:57:56,890 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (5s)
+2025-12-04 08:58:01,940 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (10s)
+2025-12-04 08:58:06,983 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (15s)
+2025-12-04 08:58:12,033 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (20s)
+2025-12-04 08:58:17,081 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (25s)
+2025-12-04 08:58:22,131 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (30s)
+2025-12-04 08:58:27,173 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (35s)
+2025-12-04 08:58:32,221 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (40s)
+2025-12-04 08:58:37,271 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (45s)
+2025-12-04 08:58:42,320 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (50s)
+2025-12-04 08:58:47,369 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (55s)
+2025-12-04 08:58:52,419 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (60s)
+2025-12-04 08:58:57,467 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (65s)
+2025-12-04 08:59:02,518 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (70s)
+2025-12-04 08:59:07,564 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (75s)
+2025-12-04 08:59:12,614 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (80s)
+2025-12-04 08:59:17,656 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (85s)
+2025-12-04 08:59:22,703 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (90s)
+2025-12-04 08:59:27,750 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (95s)
+2025-12-04 08:59:32,791 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (100s)
+2025-12-04 08:59:37,833 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (105s)
+2025-12-04 08:59:42,875 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (110s)
+2025-12-04 08:59:47,920 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (115s)
+2025-12-04 08:59:52,962 - jackify.backend.services.steam_restart_service - DEBUG - Steam process not yet detected. Waiting... (120s)
+2025-12-04 08:59:57,963 - jackify.backend.services.steam_restart_service - INFO - Steam did not start within timeout.
+2025-12-04 08:59:57,963 - jackify.backend.services.steam_restart_service - ERROR - Steam failed to start/initialize within the allowed time.
+2025-12-04 08:59:57,963 - jackify.backend.services.automated_prefix_service - ERROR - Failed to restart Steam
+2025-12-04 09:01:48,057 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:01:48,057 - jackify.backend.services.protontricks_detection_service - DEBUG - Using cached protontricks detection result
+2025-12-04 09:01:48,058 - jackify.backend.handlers.config_handler - DEBUG - API key saved successfully
+2025-12-04 09:01:48,058 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 09:01:48,059 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 09:01:48,059 - jackify.backend.services.api_key_service - INFO - API key saved successfully
+2025-12-04 09:01:48,059 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:01:48,059 - jackify.backend.handlers.config_handler - DEBUG - Resolution saved: 1920x1080
+2025-12-04 09:01:48,059 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 09:01:48,059 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 09:01:48,059 - jackify.backend.services.resolution_service - INFO - Resolution saved successfully: 1920x1080
+2025-12-04 09:02:17,790 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:02:17,791 - jackify.backend.services.automated_prefix_service - INFO - Starting proven working automated prefix creation workflow
+2025-12-04 09:02:17,793 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:02:17,793 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:02:17,794 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:02:17,794 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:02:17,795 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:02:17,795 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:02:17,795 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:02:17,795 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:17,796 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:17,797 - jackify.backend.services.automated_prefix_service - INFO - Using registry injection approach for FNV modlist
+2025-12-04 09:02:17,797 - jackify.backend.services.automated_prefix_service - INFO - Step 1: Creating shortcut with native Steam service
+2025-12-04 09:02:17,798 - jackify.backend.services.automated_prefix_service - INFO - Conflict detection temporarily disabled - proceeding with shortcut creation
+2025-12-04 09:02:17,798 - jackify.backend.services.automated_prefix_service - INFO - Creating shortcut with native service: Viva New Vegas
+2025-12-04 09:02:17,798 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:02:17,798 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:02:17,800 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:02:17,800 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:02:17,800 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:02:17,800 - jackify.backend.handlers.path_handler - DEBUG - Attempting to find Steam library...
+2025-12-04 09:02:17,801 - jackify.backend.handlers.path_handler - DEBUG - Found libraryfolders.vdf at: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:02:17,801 - jackify.backend.handlers.path_handler - DEBUG - Found potential common path: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:02:17,801 - jackify.backend.handlers.path_handler - DEBUG - Found 1 valid library common paths from VDF.
+2025-12-04 09:02:17,801 - jackify.backend.handlers.path_handler - INFO - Using Steam library common path: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:02:17,801 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:02:17,801 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh game proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:02:17,802 - jackify.backend.services.automated_prefix_service - INFO - Using user-selected Proton: proton_experimental
+2025-12-04 09:02:17,802 - jackify.backend.services.native_steam_service - INFO - Creating shortcut with Proton: 'Viva New Vegas' -> 'proton_experimental'
+2025-12-04 09:02:17,802 - jackify.backend.services.native_steam_service - INFO - Creating shortcut 'Viva New Vegas' for '/home/puppy/Wabbajack/Modding/ModOrganizer.exe'
+2025-12-04 09:02:17,802 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:02:17,802 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:02:17,802 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:02:17,802 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:02:17,802 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:02:17,803 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:02:17,803 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:02:17,803 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:17,804 - jackify.backend.services.native_steam_service - INFO - Generated random AppID for 'Viva New Vegas': -923342052 (unsigned: 3371625244)
+2025-12-04 09:02:17,805 - jackify.backend.services.native_steam_service - INFO - Created backup: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf.backup_1764856937
+2025-12-04 09:02:17,806 - jackify.backend.services.native_steam_service - INFO - Successfully wrote shortcuts.vdf
+2025-12-04 09:02:17,806 - jackify.backend.services.native_steam_service - INFO - Shortcut created successfully at index 9
+2025-12-04 09:02:17,806 - jackify.backend.services.native_steam_service - INFO - Setting Proton version 'proton_experimental' for AppID 3371625244 using STL-compatible format
+2025-12-04 09:02:17,806 - jackify.backend.services.native_steam_service - INFO - Created backup: /home/puppy/.steam/steam/config/config.vdf.backup_1764856937
+2025-12-04 09:02:17,808 - jackify.backend.services.native_steam_service - INFO - Successfully set Proton version 'proton_experimental' for AppID 3371625244 using config.vdf only (steam-conductor method)
+2025-12-04 09:02:17,808 - jackify.backend.services.native_steam_service - INFO - Complete workflow successful: 'Viva New Vegas' with 'proton_experimental'
+2025-12-04 09:02:17,808 - jackify.backend.services.automated_prefix_service - INFO -  Native Steam service created shortcut successfully with AppID: 3371625244
+2025-12-04 09:02:17,808 - jackify.backend.services.automated_prefix_service - INFO - Step 1 completed: Shortcut created with native service, AppID: 3371625244
+2025-12-04 09:02:17,809 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:02:17,809 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:02:17,810 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:02:17,810 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:02:17,810 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:02:17,810 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:02:17,810 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:02:17,810 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:17,810 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:17,811 - jackify.backend.services.automated_prefix_service - INFO - Applied Steam artwork for shortcut 'Viva New Vegas' (AppID: 3371625244)
+2025-12-04 09:02:17,811 - jackify.backend.services.automated_prefix_service - INFO - Step 2: Restarting Steam using Jackify's robust method
+2025-12-04 09:02:17,811 - jackify.backend.services.steam_restart_service - DEBUG - Steam restart: Cleaned PyInstaller environment variables: LD_LIBRARY_PATH (removed)
+2025-12-04 09:02:17,811 - jackify.backend.services.steam_restart_service - INFO - Shutting down Steam...
+2025-12-04 09:02:17,943 - jackify.backend.services.steam_restart_service - DEBUG - pkill steam result: 1
+2025-12-04 09:02:19,994 - jackify.backend.services.steam_restart_service - INFO - Steam processes successfully terminated.
+2025-12-04 09:02:19,994 - jackify.backend.services.steam_restart_service - INFO - Steam closed successfully.
+2025-12-04 09:02:19,995 - jackify.backend.services.steam_restart_service - INFO - Starting Steam...
+2025-12-04 09:02:19,995 - jackify.backend.services.steam_restart_service - DEBUG - Steam restart: Cleaned PyInstaller environment variables: LD_LIBRARY_PATH (removed)
+2025-12-04 09:02:20,068 - jackify.backend.services.steam_restart_service - INFO - Attempting to start Steam using method: Popen
+2025-12-04 09:02:20,069 - jackify.backend.services.steam_restart_service - INFO - Initiated Steam start with Popen.
+2025-12-04 09:02:25,120 - jackify.backend.services.steam_restart_service - INFO - Steam process detected after using Popen. Proceeding to wait phase.
+2025-12-04 09:02:25,120 - jackify.backend.services.steam_restart_service - INFO - Waiting for Steam to fully start
+2025-12-04 09:02:25,120 - jackify.backend.services.steam_restart_service - INFO - Waiting up to 2 minutes for Steam to fully initialize...
+2025-12-04 09:02:25,166 - jackify.backend.services.steam_restart_service - INFO - Steam process detected. Waiting additional time for full initialization...
+2025-12-04 09:02:40,309 - jackify.backend.services.steam_restart_service - INFO - Steam started successfully.
+2025-12-04 09:02:40,309 - jackify.backend.services.steam_restart_service - INFO - Steam confirmed running after wait.
+2025-12-04 09:02:40,309 - jackify.backend.services.automated_prefix_service - INFO - Step 2 completed: Steam restarted
+2025-12-04 09:02:40,310 - jackify.backend.services.automated_prefix_service - INFO - Step 3: Creating Proton prefix invisibly
+2025-12-04 09:02:40,310 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:02:40,312 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh game proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:02:40,312 - jackify.backend.services.automated_prefix_service - INFO - Using user-selected Proton wrapper: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental/proton
+2025-12-04 09:02:40,313 - jackify.backend.services.automated_prefix_service - INFO - Creating Proton prefix for AppID 3371625244
+2025-12-04 09:02:40,314 - jackify.backend.services.automated_prefix_service - INFO - STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/puppy/.steam/steam
+2025-12-04 09:02:40,314 - jackify.backend.services.automated_prefix_service - INFO - STEAM_COMPAT_DATA_PATH=/home/puppy/.steam/steam/steamapps/compatdata/3371625244
+2025-12-04 09:02:40,314 - jackify.backend.services.automated_prefix_service - INFO - Running: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental/proton run wineboot -u
+2025-12-04 09:02:55,742 - jackify.backend.services.automated_prefix_service - INFO - Proton exit code: 0
+2025-12-04 09:02:55,742 - jackify.backend.services.automated_prefix_service - INFO - stderr: Proton: Upgrading prefix from None to 10.1000-200 (/home/puppy/.steam/steam/steamapps/compatdata/3371625244/)
+fsync: up and running.
+2025-12-04 09:02:58,743 - jackify.backend.services.automated_prefix_service - INFO -  Proton prefix created at: /home/puppy/.steam/steam/steamapps/compatdata/3371625244/pfx
+2025-12-04 09:02:58,743 - jackify.backend.services.automated_prefix_service - INFO - Step 3 completed: Proton prefix created
+2025-12-04 09:02:58,743 - jackify.backend.services.automated_prefix_service - INFO - Step 4: Verifying compatibility tool persists
+2025-12-04 09:02:58,745 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:02:58,745 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh game proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:02:58,745 - jackify.backend.services.automated_prefix_service - INFO - Using user-selected Proton: proton_experimental
+2025-12-04 09:02:58,745 - jackify.backend.services.automated_prefix_service - INFO -  Compatibility tool persists: proton_experimental
+2025-12-04 09:02:58,745 - jackify.backend.services.automated_prefix_service - INFO - Step 4 completed: Verification done
+2025-12-04 09:02:58,745 - jackify.backend.services.automated_prefix_service - INFO - Step 5: Injecting FNV game registry entries
+2025-12-04 09:02:58,745 - jackify.backend.services.automated_prefix_service - INFO - Detecting game registry entries...
+2025-12-04 09:02:58,747 - jackify.backend.services.automated_prefix_service - INFO - Detected Fallout New Vegas at: /var/home/puppy/.local/share/Steam/steamapps/common/Fallout New Vegas
+2025-12-04 09:02:58,795 - jackify.backend.services.automated_prefix_service - INFO - Updated registry entry for Fallout New Vegas
+2025-12-04 09:02:58,796 - jackify.backend.services.automated_prefix_service - DEBUG - Enderal not found in Steam libraries
+2025-12-04 09:02:58,796 - jackify.backend.services.automated_prefix_service - INFO - Game registry injection completed
+2025-12-04 09:02:58,796 - jackify.backend.services.automated_prefix_service - INFO -  Working workflow completed successfully! AppID: 3371625244, Prefix: /home/puppy/.steam/steam/steamapps/compatdata/3371625244
+2025-12-04 09:02:58,801 - jackify.backend.services.modlist_service - INFO - Configuring modlist after Steam setup: Viva New Vegas
+2025-12-04 09:02:58,802 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:02:58,803 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:02:58,804 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:02:58,804 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:02:58,804 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:02:58,804 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:02:58,805 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:02:58,805 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:58,805 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:58,806 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:02:58,807 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:02:58,807 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:02:58,807 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:02:58,807 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:02:58,807 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:02:58,807 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:02:58,807 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:58,808 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:02:58,810 - jackify.backend.handlers.menu_handler - DEBUG - [DEBUG] Entering run_modlist_configuration_phase with context: {'name': 'Viva New Vegas', 'path': '/home/puppy/Wabbajack/Modding', 'mo2_exe_path': '/home/puppy/Wabbajack/Modding/ModOrganizer.exe', 'resolution': '1920x1080', 'skip_confirmation': True, 'manual_steps_completed': True, 'appid': 3371625244, 'engine_installed': True}
+2025-12-04 09:02:58,810 - jackify.backend.handlers.path_handler - DEBUG - Searching for compatdata directory for AppID: 3371625244
+2025-12-04 09:02:58,811 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:02:58,811 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:02:58,812 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:02:58,813 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:02:58,814 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:02:58,814 - jackify.backend.handlers.path_handler - DEBUG - Checking compatdata in 1 Steam libraries
+2025-12-04 09:02:58,814 - jackify.backend.handlers.path_handler - INFO - Found compatdata directory: /var/home/puppy/.local/share/Steam/steamapps/compatdata/3371625244
+2025-12-04 09:02:58,815 - jackify.backend.handlers.menu_handler - DEBUG - [DEBUG] set_modlist returned: True
+2025-12-04 09:02:58,815 - jackify.backend.handlers.menu_handler - INFO - [GUI MODE] Resolution set from GUI: 1920x1080
+2025-12-04 09:02:58,815 - jackify.backend.handlers.path_handler - DEBUG - Searching for Steam config.vdf...
+2025-12-04 09:02:58,815 - jackify.backend.handlers.path_handler - INFO - Found config.vdf at: /home/puppy/.steam/steam/config/config.vdf
+2025-12-04 09:02:58,829 - jackify.backend.handlers.menu_handler - INFO - Starting configuration steps for Viva New Vegas
+2025-12-04 09:02:58,830 - jackify.backend.handlers.protontricks_handler - DEBUG - Using native Steam operations, permissions handled natively
+2025-12-04 09:02:58,834 - jackify.backend.services.native_steam_operations_service - DEBUG - Using native Steam operations, no permission setting needed
+2025-12-04 09:02:58,834 - jackify.backend.handlers.path_handler - DEBUG - Searching for compatdata directory for AppID: 3371625244
+2025-12-04 09:02:58,835 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:02:58,835 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:02:58,835 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:02:58,836 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:02:58,837 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:02:58,837 - jackify.backend.handlers.path_handler - DEBUG - Checking compatdata in 1 Steam libraries
+2025-12-04 09:02:58,837 - jackify.backend.handlers.path_handler - INFO - Found compatdata directory: /var/home/puppy/.local/share/Steam/steamapps/compatdata/3371625244
+2025-12-04 09:02:58,839 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2025-12-04 09:02:58,962 - urllib3.connectionpool - DEBUG - https://raw.githubusercontent.com:443 "GET /Omni-guides/Wabbajack-Modlist-Linux/refs/heads/main/files/user.reg.modlist HTTP/1.1" 200 10564
+2025-12-04 09:02:58,966 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2025-12-04 09:02:59,257 - urllib3.connectionpool - DEBUG - https://raw.githubusercontent.com:443 "GET /Omni-guides/Wabbajack-Modlist-Linux/refs/heads/main/files/system.reg.modlist HTTP/1.1" 200 558268
+2025-12-04 09:02:59,401 - jackify.backend.handlers.protontricks_handler - DEBUG - Getting WINEPREFIX for AppID 3371625244 via native path discovery
+2025-12-04 09:02:59,401 - jackify.backend.services.native_steam_operations_service - DEBUG - Getting WINEPREFIX for AppID 3371625244 using native path discovery
+2025-12-04 09:02:59,402 - jackify.backend.services.native_steam_operations_service - DEBUG - Could not get additional Steam library paths: cannot import name 'PathHandler' from 'jackify.shared.paths' (/var/home/puppy/Jackify/.tmp/.mount_Jackifk5bZni/opt/jackify/shared/paths.py)
+2025-12-04 09:02:59,402 - jackify.backend.services.native_steam_operations_service - DEBUG - Checking prefix path: /home/puppy/.steam/steam/steamapps/compatdata/3371625244/pfx
+2025-12-04 09:02:59,403 - jackify.backend.services.native_steam_operations_service - DEBUG - Found WINEPREFIX: /home/puppy/.steam/steam/steamapps/compatdata/3371625244/pfx
+2025-12-04 09:02:59,442 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:02:59,443 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh install proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:02:59,446 - jackify.backend.handlers.protontricks_handler - DEBUG - Detecting if protontricks is installed...
+2025-12-04 09:02:59,447 - jackify.backend.handlers.protontricks_handler - DEBUG - Detected Protontricks is a Flatpak wrapper at /usr/bin/protontricks
+2025-12-04 09:02:59,550 - jackify.backend.handlers.protontricks_handler - INFO - Flatpak Protontricks is installed
+2025-12-04 09:07:16,506 - jackify.backend.handlers.menu_handler - ERROR - Core configuration steps failed for Viva New Vegas
+2025-12-04 09:11:03,913 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:11:03,917 - jackify.backend.handlers.wine_utils - INFO - Scanning for all available Proton versions...
+2025-12-04 09:11:03,917 - jackify.backend.handlers.wine_utils - INFO - Scanning for available GE-Proton versions...
+2025-12-04 09:11:03,918 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/steam/compatibilitytools.d
+2025-12-04 09:11:03,918 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 09:11:03,919 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 09:11:03,919 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.local/share/Steam/compatibilitytools.d
+2025-12-04 09:11:03,919 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.local/share/Steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 09:11:03,919 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 09:11:03,920 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/root/compatibilitytools.d
+2025-12-04 09:11:03,920 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/root/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 09:11:03,920 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 09:11:03,920 - jackify.backend.handlers.wine_utils - INFO - Found 3 GE-Proton version(s)
+2025-12-04 09:11:03,921 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 09:11:03,921 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:11:03,921 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:11:03,922 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:11:03,922 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:11:03,922 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:11:03,922 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 09:11:03,922 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,923 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 09:11:03,923 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,923 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 09:11:03,923 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 09:11:03,923 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,923 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,923 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,924 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 09:11:03,924 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,924 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,924 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,924 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,924 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,925 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 09:11:03,925 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,925 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,925 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 09:11:03,925 - jackify.backend.handlers.wine_utils - INFO - Found 3 total Proton version(s)
+2025-12-04 09:11:03,925 - jackify.backend.handlers.wine_utils - INFO - Best available: GE-Proton10-25 (GE-Proton)
+2025-12-04 09:11:03,926 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 09:11:03,926 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:11:03,926 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:11:03,926 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:11:03,927 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:11:03,927 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:11:03,927 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 09:11:03,927 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,927 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 09:11:03,927 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,927 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 09:11:03,928 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 09:11:03,928 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,928 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,928 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,928 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 09:11:03,928 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,928 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,929 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,929 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,929 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,929 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 09:11:03,929 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,929 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,930 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 09:11:03,930 - jackify.backend.handlers.wine_utils - INFO - Scanning for all available Proton versions...
+2025-12-04 09:11:03,930 - jackify.backend.handlers.wine_utils - INFO - Scanning for available GE-Proton versions...
+2025-12-04 09:11:03,930 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/steam/compatibilitytools.d
+2025-12-04 09:11:03,930 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 09:11:03,931 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 09:11:03,931 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.local/share/Steam/compatibilitytools.d
+2025-12-04 09:11:03,931 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.local/share/Steam/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 09:11:03,931 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 09:11:03,931 - jackify.backend.handlers.wine_utils - DEBUG - Scanning compatibility tools: /home/puppy/.steam/root/compatibilitytools.d
+2025-12-04 09:11:03,931 - jackify.backend.handlers.wine_utils - DEBUG - Found GE-Proton10-25 at /home/puppy/.steam/root/compatibilitytools.d/GE-Proton10-25 (priority: 325)
+2025-12-04 09:11:03,932 - jackify.backend.handlers.wine_utils - DEBUG - Skipping GE-Proton-latest - unknown GE-Proton version format
+2025-12-04 09:11:03,932 - jackify.backend.handlers.wine_utils - INFO - Found 3 GE-Proton version(s)
+2025-12-04 09:11:03,932 - jackify.backend.handlers.wine_utils - INFO - Scanning for available Valve Proton versions...
+2025-12-04 09:11:03,932 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:11:03,932 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:11:03,932 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:11:03,933 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:11:03,933 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:11:03,933 - jackify.backend.handlers.wine_utils - INFO - PathHandler found Steam libraries: [PosixPath('/var/home/puppy/.local/share/Steam')]
+2025-12-04 09:11:03,933 - jackify.backend.handlers.wine_utils - DEBUG - Added Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,933 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - DEBUG - Added fallback Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - INFO - Final Steam library paths for Proton scanning: [PosixPath('/var/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/steam/steamapps/common'), PosixPath('/home/puppy/.local/share/Steam/steamapps/common'), PosixPath('/home/puppy/.steam/root/steamapps/common')]
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /var/home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/steam/steamapps/common
+2025-12-04 09:11:03,934 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,935 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,935 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:11:03,935 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,935 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.local/share/Steam/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,935 - jackify.backend.handlers.wine_utils - DEBUG - Scanning Steam library: /home/puppy/.steam/root/steamapps/common
+2025-12-04 09:11:03,935 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton - Experimental at /home/puppy/.steam/root/steamapps/common/Proton - Experimental
+2025-12-04 09:11:03,935 - jackify.backend.handlers.wine_utils - DEBUG - Found Proton 10.0 at /home/puppy/.steam/root/steamapps/common/Proton 10.0
+2025-12-04 09:11:03,936 - jackify.backend.handlers.wine_utils - INFO - Found 2 unique Valve Proton version(s)
+2025-12-04 09:11:03,936 - jackify.backend.handlers.wine_utils - INFO - Found 3 total Proton version(s)
+2025-12-04 09:11:03,936 - jackify.backend.handlers.wine_utils - INFO - Best available: GE-Proton10-25 (GE-Proton)
+2025-12-04 09:15:00,637 - jackify.backend.handlers.config_handler - DEBUG - API key saved successfully
+2025-12-04 09:15:00,637 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 09:15:00,637 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 09:15:00,638 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 09:15:00,638 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 09:15:00,638 - jackify.frontends.gui.main - INFO - Saved Proton config: install_path=/var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental, game_path=/var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:15:00,638 - jackify.frontends.gui.main - DEBUG - Config save verified successfully
+2025-12-04 09:17:21,498 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:17:21,498 - jackify.backend.services.protontricks_detection_service - DEBUG - Using cached protontricks detection result
+2025-12-04 09:17:21,499 - jackify.backend.handlers.config_handler - DEBUG - API key saved successfully
+2025-12-04 09:17:21,499 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 09:17:21,499 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 09:17:21,500 - jackify.backend.services.api_key_service - INFO - API key saved successfully
+2025-12-04 09:17:21,500 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:17:21,500 - jackify.backend.handlers.config_handler - DEBUG - Resolution saved: 1920x1080
+2025-12-04 09:17:21,500 - jackify.backend.handlers.config_handler - DEBUG - Created configuration directory: /home/puppy/.config/jackify
+2025-12-04 09:17:21,500 - jackify.backend.handlers.config_handler - DEBUG - Saved configuration to file
+2025-12-04 09:17:21,500 - jackify.backend.services.resolution_service - INFO - Resolution saved successfully: 1920x1080
+2025-12-04 09:18:36,633 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:18:36,636 - jackify.backend.services.automated_prefix_service - INFO - Starting proven working automated prefix creation workflow
+2025-12-04 09:18:36,637 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:18:36,637 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:18:36,638 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:18:36,638 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:18:36,639 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:18:36,639 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:18:36,639 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:18:36,639 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:18:36,640 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:18:36,642 - jackify.backend.services.automated_prefix_service - INFO - Using registry injection approach for FNV modlist
+2025-12-04 09:18:36,642 - jackify.backend.services.automated_prefix_service - INFO - Step 1: Creating shortcut with native Steam service
+2025-12-04 09:18:36,642 - jackify.backend.services.automated_prefix_service - INFO - Conflict detection temporarily disabled - proceeding with shortcut creation
+2025-12-04 09:18:36,642 - jackify.backend.services.automated_prefix_service - INFO - Creating shortcut with native service: Viva New Vegas
+2025-12-04 09:18:36,642 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:18:36,643 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:18:36,643 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:18:36,644 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:18:36,645 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:18:36,645 - jackify.backend.handlers.path_handler - DEBUG - Attempting to find Steam library...
+2025-12-04 09:18:36,646 - jackify.backend.handlers.path_handler - DEBUG - Found libraryfolders.vdf at: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:18:36,646 - jackify.backend.handlers.path_handler - DEBUG - Found potential common path: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:18:36,646 - jackify.backend.handlers.path_handler - DEBUG - Found 1 valid library common paths from VDF.
+2025-12-04 09:18:36,647 - jackify.backend.handlers.path_handler - INFO - Using Steam library common path: /var/home/puppy/.local/share/Steam/steamapps/common
+2025-12-04 09:18:36,647 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:18:36,647 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh game proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:18:36,647 - jackify.backend.services.automated_prefix_service - INFO - Using user-selected Proton: proton_experimental
+2025-12-04 09:18:36,647 - jackify.backend.services.native_steam_service - INFO - Creating shortcut with Proton: 'Viva New Vegas' -> 'proton_experimental'
+2025-12-04 09:18:36,647 - jackify.backend.services.native_steam_service - INFO - Creating shortcut 'Viva New Vegas' for '/home/puppy/Wabbajack/Modding/ModOrganizer.exe'
+2025-12-04 09:18:36,648 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:18:36,648 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:18:36,648 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:18:36,648 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:18:36,648 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:18:36,649 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:18:36,649 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:18:36,649 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:18:36,650 - jackify.backend.services.native_steam_service - INFO - Generated random AppID for 'Viva New Vegas': -860147558 (unsigned: 3434819738)
+2025-12-04 09:18:36,651 - jackify.backend.services.native_steam_service - INFO - Created backup: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf.backup_1764857916
+2025-12-04 09:18:36,652 - jackify.backend.services.native_steam_service - INFO - Successfully wrote shortcuts.vdf
+2025-12-04 09:18:36,652 - jackify.backend.services.native_steam_service - INFO - Shortcut created successfully at index 8
+2025-12-04 09:18:36,652 - jackify.backend.services.native_steam_service - INFO - Setting Proton version 'proton_experimental' for AppID 3434819738 using STL-compatible format
+2025-12-04 09:18:36,653 - jackify.backend.services.native_steam_service - INFO - Created backup: /home/puppy/.steam/steam/config/config.vdf.backup_1764857916
+2025-12-04 09:18:36,654 - jackify.backend.services.native_steam_service - INFO - Successfully set Proton version 'proton_experimental' for AppID 3434819738 using config.vdf only (steam-conductor method)
+2025-12-04 09:18:36,654 - jackify.backend.services.native_steam_service - INFO - Complete workflow successful: 'Viva New Vegas' with 'proton_experimental'
+2025-12-04 09:18:36,654 - jackify.backend.services.automated_prefix_service - INFO -  Native Steam service created shortcut successfully with AppID: 3434819738
+2025-12-04 09:18:36,654 - jackify.backend.services.automated_prefix_service - INFO - Step 1 completed: Shortcut created with native service, AppID: 3434819738
+2025-12-04 09:18:36,656 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:18:36,656 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:18:36,656 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:18:36,656 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:18:36,656 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:18:36,657 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:18:36,657 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:18:36,657 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:18:36,657 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:18:36,657 - jackify.backend.services.automated_prefix_service - INFO - Applied Steam artwork for shortcut 'Viva New Vegas' (AppID: 3434819738)
+2025-12-04 09:18:36,657 - jackify.backend.services.automated_prefix_service - INFO - Step 2: Restarting Steam using Jackify's robust method
+2025-12-04 09:18:36,658 - jackify.backend.services.steam_restart_service - DEBUG - Steam restart: Cleaned PyInstaller environment variables: LD_LIBRARY_PATH (removed)
+2025-12-04 09:18:36,658 - jackify.backend.services.steam_restart_service - INFO - Shutting down Steam...
+2025-12-04 09:18:36,791 - jackify.backend.services.steam_restart_service - DEBUG - pkill steam result: 0
+2025-12-04 09:18:38,841 - jackify.backend.services.steam_restart_service - INFO - Steam still running - force terminating...
+2025-12-04 09:18:38,888 - jackify.backend.services.steam_restart_service - DEBUG - pkill -9 steam result: 0
+2025-12-04 09:18:40,939 - jackify.backend.services.steam_restart_service - INFO - Steam processes successfully force terminated.
+2025-12-04 09:18:40,939 - jackify.backend.services.steam_restart_service - INFO - Steam closed successfully.
+2025-12-04 09:18:40,939 - jackify.backend.services.steam_restart_service - INFO - Starting Steam...
+2025-12-04 09:18:40,939 - jackify.backend.services.steam_restart_service - DEBUG - Steam restart: Cleaned PyInstaller environment variables: LD_LIBRARY_PATH (removed)
+2025-12-04 09:18:41,019 - jackify.backend.services.steam_restart_service - INFO - Attempting to start Steam using method: Popen
+2025-12-04 09:18:41,020 - jackify.backend.services.steam_restart_service - INFO - Initiated Steam start with Popen.
+2025-12-04 09:18:46,076 - jackify.backend.services.steam_restart_service - INFO - Steam process detected after using Popen. Proceeding to wait phase.
+2025-12-04 09:18:46,076 - jackify.backend.services.steam_restart_service - INFO - Waiting for Steam to fully start
+2025-12-04 09:18:46,076 - jackify.backend.services.steam_restart_service - INFO - Waiting up to 2 minutes for Steam to fully initialize...
+2025-12-04 09:18:46,122 - jackify.backend.services.steam_restart_service - INFO - Steam process detected. Waiting additional time for full initialization...
+2025-12-04 09:19:01,272 - jackify.backend.services.steam_restart_service - INFO - Steam started successfully.
+2025-12-04 09:19:01,272 - jackify.backend.services.steam_restart_service - INFO - Steam confirmed running after wait.
+2025-12-04 09:19:01,272 - jackify.backend.services.automated_prefix_service - INFO - Step 2 completed: Steam restarted
+2025-12-04 09:19:01,272 - jackify.backend.services.automated_prefix_service - INFO - Step 3: Creating Proton prefix invisibly
+2025-12-04 09:19:01,274 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:19:01,274 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh game proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:19:01,275 - jackify.backend.services.automated_prefix_service - INFO - Using user-selected Proton wrapper: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental/proton
+2025-12-04 09:19:01,276 - jackify.backend.services.automated_prefix_service - INFO - Creating Proton prefix for AppID 3434819738
+2025-12-04 09:19:01,276 - jackify.backend.services.automated_prefix_service - INFO - STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/puppy/.steam/steam
+2025-12-04 09:19:01,276 - jackify.backend.services.automated_prefix_service - INFO - STEAM_COMPAT_DATA_PATH=/home/puppy/.steam/steam/steamapps/compatdata/3434819738
+2025-12-04 09:19:01,276 - jackify.backend.services.automated_prefix_service - INFO - Running: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental/proton run wineboot -u
+2025-12-04 09:19:17,376 - jackify.backend.services.automated_prefix_service - INFO - Proton exit code: 0
+2025-12-04 09:19:17,376 - jackify.backend.services.automated_prefix_service - INFO - stderr: Proton: Upgrading prefix from None to 10.1000-200 (/home/puppy/.steam/steam/steamapps/compatdata/3434819738/)
+fsync: up and running.
+2025-12-04 09:19:20,376 - jackify.backend.services.automated_prefix_service - INFO -  Proton prefix created at: /home/puppy/.steam/steam/steamapps/compatdata/3434819738/pfx
+2025-12-04 09:19:20,377 - jackify.backend.services.automated_prefix_service - INFO - Step 3 completed: Proton prefix created
+2025-12-04 09:19:20,377 - jackify.backend.services.automated_prefix_service - INFO - Step 4: Verifying compatibility tool persists
+2025-12-04 09:19:20,378 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:19:20,378 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh game proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:19:20,378 - jackify.backend.services.automated_prefix_service - INFO - Using user-selected Proton: proton_experimental
+2025-12-04 09:19:20,378 - jackify.backend.services.automated_prefix_service - INFO -  Compatibility tool persists: proton_experimental
+2025-12-04 09:19:20,378 - jackify.backend.services.automated_prefix_service - INFO - Step 4 completed: Verification done
+2025-12-04 09:19:20,379 - jackify.backend.services.automated_prefix_service - INFO - Step 5: Injecting FNV game registry entries
+2025-12-04 09:19:20,379 - jackify.backend.services.automated_prefix_service - INFO - Detecting game registry entries...
+2025-12-04 09:19:20,379 - jackify.backend.services.automated_prefix_service - INFO - Detected Fallout New Vegas at: /var/home/puppy/.local/share/Steam/steamapps/common/Fallout New Vegas
+2025-12-04 09:19:20,427 - jackify.backend.services.automated_prefix_service - INFO - Updated registry entry for Fallout New Vegas
+2025-12-04 09:19:20,427 - jackify.backend.services.automated_prefix_service - DEBUG - Enderal not found in Steam libraries
+2025-12-04 09:19:20,427 - jackify.backend.services.automated_prefix_service - INFO - Game registry injection completed
+2025-12-04 09:19:20,427 - jackify.backend.services.automated_prefix_service - INFO -  Working workflow completed successfully! AppID: 3434819738, Prefix: /home/puppy/.steam/steam/steamapps/compatdata/3434819738
+2025-12-04 09:19:20,430 - jackify.backend.services.modlist_service - INFO - Configuring modlist after Steam setup: Viva New Vegas
+2025-12-04 09:19:20,431 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:19:20,431 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:19:20,431 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:19:20,432 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:19:20,432 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:19:20,432 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:19:20,432 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:19:20,432 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:19:20,432 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:19:20,434 - jackify.backend.services.native_steam_service - INFO - Found Steam installation at: /home/puppy/.steam/steam
+2025-12-04 09:19:20,434 - jackify.backend.handlers.vdf_handler - DEBUG - Attempting to load text VDF with ValvePython/vdf: /home/puppy/.steam/steam/config/loginusers.vdf
+2025-12-04 09:19:20,434 - jackify.backend.services.native_steam_service - INFO - Found user marked as MostRecent: 76561198295035179
+2025-12-04 09:19:20,434 - jackify.backend.services.native_steam_service - DEBUG - Converted SteamID64 76561198295035179 to SteamID3 334769451
+2025-12-04 09:19:20,435 - jackify.backend.services.native_steam_service - INFO - Most recent Steam user: SteamID64=76561198295035179, SteamID3=334769451
+2025-12-04 09:19:20,435 - jackify.backend.services.native_steam_service - INFO - VERIFIED Steam user: 334769451
+2025-12-04 09:19:20,435 - jackify.backend.services.native_steam_service - INFO - User config path: /home/puppy/.steam/steam/userdata/334769451/config
+2025-12-04 09:19:20,435 - jackify.backend.services.native_steam_service - INFO - Shortcuts.vdf will be at: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:19:20,436 - jackify.backend.handlers.path_handler - INFO - Found shortcuts.vdf using multi-user detection: /home/puppy/.steam/steam/userdata/334769451/config/shortcuts.vdf
+2025-12-04 09:19:20,436 - jackify.backend.handlers.menu_handler - DEBUG - [DEBUG] Entering run_modlist_configuration_phase with context: {'name': 'Viva New Vegas', 'path': '/home/puppy/Wabbajack/Modding', 'mo2_exe_path': '/home/puppy/Wabbajack/Modding/ModOrganizer.exe', 'resolution': '1920x1080', 'skip_confirmation': True, 'manual_steps_completed': True, 'appid': 3434819738, 'engine_installed': True}
+2025-12-04 09:19:20,438 - jackify.backend.handlers.path_handler - DEBUG - Searching for compatdata directory for AppID: 3434819738
+2025-12-04 09:19:20,438 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:19:20,439 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:19:20,440 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:19:20,441 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:19:20,442 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:19:20,443 - jackify.backend.handlers.path_handler - DEBUG - Checking compatdata in 1 Steam libraries
+2025-12-04 09:19:20,443 - jackify.backend.handlers.path_handler - INFO - Found compatdata directory: /var/home/puppy/.local/share/Steam/steamapps/compatdata/3434819738
+2025-12-04 09:19:20,444 - jackify.backend.handlers.menu_handler - DEBUG - [DEBUG] set_modlist returned: True
+2025-12-04 09:19:20,444 - jackify.backend.handlers.menu_handler - INFO - [GUI MODE] Resolution set from GUI: 1920x1080
+2025-12-04 09:19:20,444 - jackify.backend.handlers.path_handler - DEBUG - Searching for Steam config.vdf...
+2025-12-04 09:19:20,445 - jackify.backend.handlers.path_handler - INFO - Found config.vdf at: /home/puppy/.steam/steam/config/config.vdf
+2025-12-04 09:19:20,455 - jackify.backend.handlers.menu_handler - INFO - Starting configuration steps for Viva New Vegas
+2025-12-04 09:19:20,456 - jackify.backend.handlers.protontricks_handler - DEBUG - Using native Steam operations, permissions handled natively
+2025-12-04 09:19:20,456 - jackify.backend.services.native_steam_operations_service - DEBUG - Using native Steam operations, no permission setting needed
+2025-12-04 09:19:20,457 - jackify.backend.handlers.path_handler - DEBUG - Searching for compatdata directory for AppID: 3434819738
+2025-12-04 09:19:20,457 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Searching for all Steam libraryfolders.vdf files...
+2025-12-04 09:19:20,457 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/steam/config/libraryfolders.vdf
+2025-12-04 09:19:20,458 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.local/share/Steam/config/libraryfolders.vdf
+2025-12-04 09:19:20,459 - jackify.backend.handlers.path_handler - INFO - [DEBUG] Parsing libraryfolders.vdf: /home/puppy/.steam/root/config/libraryfolders.vdf
+2025-12-04 09:19:20,460 - jackify.backend.handlers.path_handler - INFO - [DEBUG] All detected Steam libraries: {PosixPath('/var/home/puppy/.local/share/Steam')}
+2025-12-04 09:19:20,460 - jackify.backend.handlers.path_handler - DEBUG - Checking compatdata in 1 Steam libraries
+2025-12-04 09:19:20,461 - jackify.backend.handlers.path_handler - INFO - Found compatdata directory: /var/home/puppy/.local/share/Steam/steamapps/compatdata/3434819738
+2025-12-04 09:19:20,463 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2025-12-04 09:19:20,580 - urllib3.connectionpool - DEBUG - https://raw.githubusercontent.com:443 "GET /Omni-guides/Wabbajack-Modlist-Linux/refs/heads/main/files/user.reg.modlist HTTP/1.1" 200 10564
+2025-12-04 09:19:20,584 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2025-12-04 09:19:20,867 - urllib3.connectionpool - DEBUG - https://raw.githubusercontent.com:443 "GET /Omni-guides/Wabbajack-Modlist-Linux/refs/heads/main/files/system.reg.modlist HTTP/1.1" 200 558268
+2025-12-04 09:19:21,011 - jackify.backend.handlers.protontricks_handler - DEBUG - Getting WINEPREFIX for AppID 3434819738 via native path discovery
+2025-12-04 09:19:21,011 - jackify.backend.services.native_steam_operations_service - DEBUG - Getting WINEPREFIX for AppID 3434819738 using native path discovery
+2025-12-04 09:19:21,012 - jackify.backend.services.native_steam_operations_service - DEBUG - Could not get additional Steam library paths: cannot import name 'PathHandler' from 'jackify.shared.paths' (/var/home/puppy/Jackify/.tmp/.mount_Jackifk5bZni/opt/jackify/shared/paths.py)
+2025-12-04 09:19:21,012 - jackify.backend.services.native_steam_operations_service - DEBUG - Checking prefix path: /home/puppy/.steam/steam/steamapps/compatdata/3434819738/pfx
+2025-12-04 09:19:21,013 - jackify.backend.services.native_steam_operations_service - DEBUG - Found WINEPREFIX: /home/puppy/.steam/steam/steamapps/compatdata/3434819738/pfx
+2025-12-04 09:19:21,047 - jackify.backend.handlers.config_handler - DEBUG - Loaded configuration from file
+2025-12-04 09:19:21,048 - jackify.backend.handlers.config_handler - DEBUG - Retrieved fresh install proton_path from config: /var/home/puppy/.local/share/Steam/steamapps/common/Proton - Experimental
+2025-12-04 09:19:21,049 - jackify.backend.handlers.protontricks_handler - DEBUG - Detecting if protontricks is installed...
+2025-12-04 09:19:21,050 - jackify.backend.handlers.protontricks_handler - DEBUG - Detected Protontricks is a Flatpak wrapper at /usr/bin/protontricks
+2025-12-04 09:19:21,153 - jackify.backend.handlers.protontricks_handler - INFO - Flatpak Protontricks is installed
+2025-12-04 09:23:43,965 - jackify.backend.handlers.menu_handler - ERROR - Core configuration steps failed for Viva New Vegas
