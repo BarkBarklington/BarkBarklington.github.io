@@ -1,0 +1,8 @@
+#;For GOG
+jq -r '.games[].title' ~/.config/heroic/store_cache/gog_library.json
+#;
+#;For Epic
+jq -r '.library[].title' ~/.config/heroic/store_cache/legendary_library.json
+#;
+#;For Amazon
+jq -r '.library[].title' ~/.config/heroic/store_cache/nile_library.json
