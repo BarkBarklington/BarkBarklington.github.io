@@ -1,0 +1,28 @@
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOURNAME/dinkin-website.git
+git push -u origin main
+
+
+
+src="https://player.twitch.tv/?channel=YOURNAME&parent=yourdomain.com"
+
+
+
+YOURNAME.github.io
+
+
+
+src="https://player.twitch.tv/?channel=dinkin&parent=dinkin.github.io"
+
+
+
+
+src="https://player.twitch.tv/?channel=YOURNAME&parent=YOUR-NETLIFY-SITE.netlify.app"
+
+
+src="https://player.twitch.tv/?channel=dinkin&parent=neon-cyberpunk-dinkin.netlify.app"
+
+
