@@ -168,7 +168,7 @@ header {
 /* hologram layers */
 .logo::before,
 .logo::after {
-    content: "DINKIN";
+    content: "~PUPPY~";
     position: absolute;
     inset: 0;
     opacity: 0.4;
@@ -830,7 +830,7 @@ function setTerminalMode(mode) {
 
     if (mode === "1") {
         terminalContent.innerHTML = `
-            <p>BOOTING DINKIN_CRT_SYSTEM v1.0...</p>
+            <p>BOOTING ~PUPPY~_CRT_SYSTEM v1.0...</p>
             <p>&gt; INIT VIDEO... OK</p>
             <p>&gt; INIT AUDIO... OK</p>
             <p>&gt; LOADING COZY_NEON_ENV...</p>
@@ -846,7 +846,7 @@ function setTerminalMode(mode) {
         terminalContent.innerHTML = `
             <p>HOLOGRAM CONSOLE ONLINE.</p>
             <p>Rendering neon layers...</p>
-            <p>Project: <strong>DINKIN CYBER LOUNGE</strong></p>
+            <p>Project: <strong>~PUPPY~ CYBER LOUNGE</strong></p>
         `;
     } else if (mode === "4") {
         terminalContent.innerHTML = `
